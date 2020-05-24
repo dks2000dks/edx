@@ -1,0 +1,6 @@
+After becoming familiar with your graphical interface, you are going to want to start configuring your system,
+making it take full advantage of the hardware and modifying it so that it works well for you.
+In this lesson, we’re going to cover a number of topics:
+changing the screen resolution, adding multiple monitors, configuring the network, changing the date and time,
+and adding and removing software from the system all from the graphical interface.
+Let’s get started!

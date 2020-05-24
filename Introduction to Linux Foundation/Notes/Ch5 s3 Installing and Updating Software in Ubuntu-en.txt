@@ -1,0 +1,27 @@
+We are now going to demonstrate package management from a graphical interface in Ubuntu 18.04 Bionic Beaver.
+There is a default software management tool that comes... called Ubuntu Software Center, which you get by clicking on this box here over on the left hand side,
+but it's rather deficient in being able to find packages which are in the normal packaging system.
+It tends to do better at searching for things that are externally available.
+A better interface and a rather old one is called Synaptic. But first, we have to install it. So we click on the Search box up here and we type synaptic, and there, it found it.
+It is the first thing here. So let's just click on that and say Install. It will require my password to install this package and it should be pretty quick.
+And then, I will kill by clicking on the upper right-hand X here, I'll kill the Ubuntu Software Center.
+And then, if I want to launch Synaptic, there's a number of ways I can get at it.
+One way is to click down here in the lower left, under Show Applications, and I can click on it right here, or I could type synaptic in the Search box.
+Once again it's asking for my password because we haven't run it for a while. It didn't take any time to start up. Sometimes it takes time to start up.
+So here, on the left, we have listed all the packages on the system, and on the right here, it would show the status.
+Now, this is a list according to category. So, for instance, under Editors we see all these different versions of Emacs, Libre Office...
+I'm sure if it goes further down we'll vi in its various forms, nano, all topics we will talk about later.
+If I want to search for a particular package to install, I can do that by hitting the Search icon. And so, for instance, one program that might be useful it's called gnuplot.
+So, I'll type it in there and it actually brought up a bunch of things because it's not just searching on the name.
+But if I scroll down some... there it is gnuplot... I can see it's already installed because it's got the green in the box here.
+If I wanted to install, let's say, that documentation package that goes along with it, I can click here and then say mark for installation.
+If there are any other packages that needed to be installed when I did this, it would come up at that point.
+I can say Apply and then it will install it. This is not a big package, so it's pretty quick. It's done.
+And then, once that's done, I will remove it, since I don't really need it.
+So I can go back down here and I seek gnuplot-doc. I'll mark for complete removal.
+That means get rid of any configuration files I might have configured while I was using it, etc. and mark Apply again,
+and that little X here means removal.
+So I just say Apply.
+So, Synaptic only searches for packages which are already in the databases that Ubuntu understands, while the Ubuntu Software Center will go to some more external resources.
+So that's a quick demonstration of software package management from a graphical interface in Ubuntu.
+Later, we will show more from a command-line interface.

@@ -1,0 +1,76 @@
+0
+00:00:00,618 --> 00:00:04,341
+Let's get started on viewing files using the different available commands.
+
+1
+00:00:04,600 --> 00:00:07,396
+To view the entire messages file on screen:
+
+2
+00:00:07,464 --> 00:00:10,632
+1. At the command prompt, type cat messages.
+
+3
+00:00:11,032 --> 00:00:11,827
+2. Press ENTER.
+
+4
+00:00:11,968 --> 00:00:15,109
+To view the entire messages file with scroll-back:
+
+5
+00:00:15,164 --> 00:00:18,387
+1. At the command prompt, type less messages.
+
+6
+00:00:18,600 --> 00:00:19,578
+2. Press ENTER.
+
+7
+00:00:20,773 --> 00:00:23,505
+To view last ten lines of the messages file:
+
+8
+00:00:23,578 --> 00:00:27,132
+1. At the command prompt, type tail messages.
+
+9
+00:00:27,400 --> 00:00:28,223
+2. Press ENTER.
+
+10
+00:00:28,328 --> 00:00:31,219
+To view first ten lines of the messages file:
+
+11
+00:00:31,391 --> 00:00:34,182
+1. At the command prompt, type head messages.
+
+12
+00:00:34,346 --> 00:00:35,369
+2. Press ENTER.
+
+13
+00:00:35,528 --> 00:00:38,432
+To view last three lines of the messages file:
+
+14
+00:00:38,646 --> 00:00:42,310
+1. At the command prompt, type tail -3 messages.
+
+15
+00:00:42,582 --> 00:00:43,369
+2. Press ENTER.
+
+16
+00:00:43,596 --> 00:00:46,119
+To view first three lines of the messages file:
+
+17
+00:00:46,510 --> 00:00:50,541
+1. At the command prompt, type head -3 messages.
+
+18
+00:00:50,728 --> 00:00:51,514
+2. Press ENTER.
+

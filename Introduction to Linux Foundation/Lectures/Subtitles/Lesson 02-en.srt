@@ -1,0 +1,12 @@
+0
+00:00:04,662 --> 00:00:06,367
+Ever wonder where Linux came from?
+
+1
+00:00:06,784 --> 00:00:13,550
+In this lesson, we’ll discuss the history of Linux, the philosophy, the community, and the components of a Linux distribution.
+
+2
+00:00:13,551 --> 00:00:14,475
+Let’s get started.
+

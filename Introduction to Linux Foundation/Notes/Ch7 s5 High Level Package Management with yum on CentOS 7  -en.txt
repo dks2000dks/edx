@@ -1,0 +1,21 @@
+Let's demonstrate basic high-level package management operations from the command line on a CentOS 7 system using yum.
+So, first let's use "sudo yum list" all packages which have bzip2 in their names, the string bzip2 in their names [sudo yum list "*bzip2*"].
+The reason I'm putting this in quotes is in case there's any files in the directory with bzip2, and then it will pick that up instead of what's called globbing in the package list.
+So, you see first it lists the packages which are installed, which are the normal bzip2 packages, and some libraries associated with it,
+and then, what's not installed under Available Packages - you see packages for the 32-bit architecture i686, for instance, but there's also something called lbzip2.
+So, let's find out what that actually is. So, if I do "yum info lbzip2", and once again I have to do sudo [sudo yum info lbzip2],
+it's telling me it's an independent multi-threaded implementation of bzip2, which I happen to know runs much, much faster,
+because, for instance, if you have 8 processors or 4 processors, it can use them all at once instead of just having one cranking along. So, it can do a lot of parallel work.
+Ok, you'll notice that these are stored in the epel repository, which stands for Extra Packages for Enterprise Linux.
+These are things which are not in the standard Red Hat repositories, but generally are in Fedora, and can be installed usually without problem on a CentOS 7 or a Red Hat 7 system.
+So, let's install that and, to show you how dependencies work, let's not install lbzip2, but let's install lbzip2-utils.
+So, "sudo yum install lbzip2-utils"... you see, it's telling me that, in order to install lbzip2-utils, I also have to install lbzip2, because it depends on it.
+Well, that makes perfect sense. It's not very big. It's only 127KB download. So, it goes very quickly when I say yes.
+And, if I want to see more information now that it's installed, I could do something like this: "rpm qil lbzip2", and once again, I don't really have to do sudo, but I'll do it.
+And I get the same information I had from info, but also a file list.
+So, you see the executables are lbunzip2, lbzcat, and lbzip2.
+Now, suppose I want to remove this package. How would I do that?
+Well, I could say "sudo yum remove lbzip2". Let's see what happens.
+Well, it's telling me if I remove that, then I'd better remove lbzip2-utils because that needs lbzip2, so it's going to remove both at the same time, otherwise,
+whatever is in lbzip2-utils will no longer work, so let's do that.
+And that's just a very quick demonstration of some of the basic things we do all the time using yum.

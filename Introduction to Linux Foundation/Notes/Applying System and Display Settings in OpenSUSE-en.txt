@@ -1,0 +1,13 @@
+Let's get started on managing system and display settings in OpenSUSE.
+To change the screen resolution to 1024 x 768 in OpenSUSE:
+1. On the OpenSUSE desktop, at the top left corner of screen click Activities.
+2. Type settings in the Search box. The Settings icon appears.
+3. Click the Settings icon.
+The All Settings window appears.
+4. Click the Displays icon.
+The Displays window appears.
+5. Select a display ID to set the resolution.
+6. From the Resolution drop-down list, select 1024 x 768.
+7. Click Apply.
+A confirmation message is displayed.
+8. Click Keep Changes.

@@ -1,0 +1,9 @@
+Let's now demonstrate how to set default applications on a Red Hat 7 system.
+We go to the upper right hand corner, click on the top bar, and then scroll down to the gears icon for settings.
+Go down to the bottom for Details.
+And then I can click on Default Applications. So, you see, under Web or Browser, there are three choices on this system.
+I have Google Chrome, Firefox or Opera. We'll leave it at Google Chrome.
+For video, the default choice is Videos, which is actually a program called Totem. Well, let's switch it to the VLC media player.
+And for the image viewer, I have the built-in Image Viewer, or I could  switch to the GNU Image Manipulation Program, better known as GIMP.
+So, on all recent distributions with a GNOME desktop, the procedure is identical and absolutely the same.
+It is very simple to change your default applications.

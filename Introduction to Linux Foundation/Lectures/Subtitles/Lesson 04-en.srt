@@ -1,0 +1,16 @@
+0
+00:00:04,229 --> 00:00:10,434
+For new users in any operating system, the place to start is the graphical user interface.
+
+1
+00:00:10,547 --> 00:00:16,862
+And, in this session, we will talk about the basics from log in to log out and shut down.
+
+2
+00:00:16,947 --> 00:00:22,652
+Before we go to the many settings you have to customize the look and feel, to your needs.
+
+3
+00:00:22,836 --> 00:00:23,748
+Let’s go!
+

@@ -1,0 +1,56 @@
+0
+00:00:00,756 --> 00:00:03,944
+Let’s get started on how to search for files in a directory.
+
+1
+00:00:04,358 --> 00:00:06,762
+To search for a file based on a filename:
+
+2
+00:00:06,813 --> 00:00:13,940
+1. At the command prompt, type the find / usr -name gcc command.
+
+3
+00:00:14,657 --> 00:00:15,403
+2. Press ENTER.
+
+4
+00:00:16,076 --> 00:00:19,563
+All the files with GCC as the file name will be displayed.
+
+5
+00:00:20,269 --> 00:00:22,859
+To search for a directory based on a filename:
+
+6
+00:00:23,123 --> 00:00:31,217
+1. At the command prompt, type the find / usr -type d -name gcc command.
+
+7
+00:00:31,259 --> 00:00:31,995
+2. Press ENTER.
+
+8
+00:00:32,594 --> 00:00:35,821
+To search files in current directory which were modified today:
+
+9
+00:00:35,874 --> 00:00:43,612
+1. At the command prompt, type find -type f -mtime 0.
+
+10
+00:00:44,032 --> 00:00:44,797
+2. Press ENTER.
+
+11
+00:00:45,538 --> 00:00:48,655
+To search files with size 0 bytes:
+
+12
+00:00:48,834 --> 00:00:54,254
+1. At the command prompt, type find -type f -size 0
+
+13
+00:00:54,592 --> 00:00:55,395
+2. Press ENTER.
+

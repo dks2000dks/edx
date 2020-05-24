@@ -1,0 +1,55 @@
+We are going to do a fresh install of CentOS 7 as a virtual machine under the VMware hypervisor.
+So, I have already booted off the install disk  and I could test the media first before installation, but I have already done that.
+So, it will save you the time and just go directly to the install, the top option. Notice I could also pick troubleshooting, which would let me use the install desk as a repair and rescue disk, but let's just do the install.
+So, the first step in the install is the initial boot, which takes some time because it has to discover all the hardware and configure various device drivers for it.
+I will pause for a second to save you some time of not watching anything interesting.
+So now it is finding all the equipment and it's starting, and the first thing it will do is ask me to make some basic choices, such as what language to use.
+I will later have the chance to change the language for an individual user, but this is the system as a whole.
+So, here I'll just say English,
+and I will reset my timezone to be the one where I actually am, which is Central Time in North America. So I will do that.
+This unfortunately doesn't have enough information to show everything in the default resolutions. So, let me scroll down a little bit.
+Let me set up the network. I want the network to be on automatically. For some reason, CentOS 7 doesn't really do that.
+And I'll set the hostname to be "centos" or anything else I would like.
+And down there, for software selection here, I will quickly just pick "GNOME Desktop".
+I could go through all these menu choices and tune things up quite a bit, but I can always do that later, and here we want to save time.
+So, I'll click on "Done" and then, the last thing I need to set really is the installation destination. That's the hard disk. I have a 30 gigabyte VMware disk set up.
+And then I have to scroll down a little bit here.
+But first, let's just pick that.
+And then, let me go back to that and I have to actually set up my partitioning. So here, I will say I will configure partitioning I won't take the automatic choices.
+And then, I have to click on here, "Full disk summary and boot loader".
+So, I'll pick that... ok. And I'll say yes, so [click on] "Close".
+And then, if I click on it again,
+I get this screen, which lets me do manual partitioning.
+It can be a little tricky to get to this screen. You may have to play around a little bit.
+The installation program really wants you just to do things automatically, rather than make your own choices.
+But instead of choosing LVM for logical volume management, which is Red Hat's default or CentOS default, I would just say standard partition, because it's a little bit simpler for the purposes of this course,
+and I'll have to make this partition. So I'll say / and for desired capacity I'll say 29 gigabytes,
+and then my remaining space I'll hit the plus sign again here. I'll configure a swap and I'll make that 1 gigabyte and I'll add that mount point. So now, all my space is essentially taken up.
+And for the partition type, for the regular one, the default now for Red Hat is XFS. I will keep it back to the older one, ext4, and I'll say "Done".
+So this was the most complicated part of the initial configuration.
+If you just want to take the default choices go to Done, boom, boom, boom, and be done with it. Okay?
+So now, I will begin the installation.
+And it wants me to set a root password. So I'll do that.
+I have to type it a second time. And if you can read it on this terrible font down here, it says it's a weak password.
+And it really doesn't want to accept it, but since this is a disposable student machine and will not be exposed really to the outside world, I'll accept it and I'll just say "Done".
+And now, I will have to set up a user. So, we'll give that user the full name of "LF Student" and I'll name the account as "student" and I'll set a password for it.
+And I could make this user the administrator, so it would be a more like Ubuntu or a Windows-type setup, where we don't consciously use the root account except through "sudo" in the case of Ubuntu,
+but I'll take a more traditional UNIX approach, and I'll just say "Done".
+Once again, it thinks I chose a weak password. So I'll just click "Done" again.
+So now it's going to go through the long process of installing many packages - 1362.
+I'll spare you that long wait and hit pause and resume again when it's almost done.
+Now it says it's performing post install set up tests. This includes things like setting up any security features, and setting up the boot loader, including grub.
+This actually takes quite a bit of time. So, I'll pause again.
+It has finished and now it wants me to reboot.
+So, I will just hit reboot.
+So, this is our first reboot of the newly configured system.
+It gave me a choice between the installed in kernel or a rescue kernel, so we'll just leave it alone, and take the default.
+And it will take its time. The first time always takes a little bit longer to boot, and once it gets into a graphical display, it will ask me to make a couple of last-minute choices.
+So, first we're going to get the so called greeter screen, and it's going to ask me to accept the license, and I will say sure, I'll accept the end-user license associated with CentOS 7,
+and I'll just say "FINISH CONFIGURATION".
+So now I'll get the greeter screen and it's just asking me to login. So I'll give my password for the "student" account.
+And the first time this turns on it will also say welcome and ask me to accept English. I will accept the standard English keyboard.
+I will turn off location services. I don't feel like being spied on at the moment, and I will not set up any online accounts that it's asking about, and we're done.
+And there's some introductory help that I will just dismiss, and that's what the default look is of a fresh install of a CentOS 7 workstation.
+Notice VMware will let me increase the screen display resolution by simply dragging, rather than having to set a specific value. So that's rather nice.
+So, that's what the initial bare-bones installation of CentOS 7 looks like.

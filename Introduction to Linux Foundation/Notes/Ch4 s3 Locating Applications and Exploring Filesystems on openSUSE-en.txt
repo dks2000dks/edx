@@ -1,0 +1,22 @@
+Let's see how to locate the Firefox application in "Locate Firefox".
+Click "Activities" on the top left corner of your desktop.
+On the left panel, click the "Show applications" icon.
+Click the Firefox icon.
+Close Firefox by clicking "Close" in the top right corner of the Firefox window.
+Next, let's explore the Home directory using the File Manager: try to view files in list mode, create a new empty document, save it, and remove it.
+Click "Activities" in the upper left corner of your desktop.
+In the left panel, click the File Manager icon.
+This will by default open the Home directory.
+To view files in list mode, click the List icon in the upper right of the File Manager window.
+Double-click the Document directory to open it.
+Click Activities in the top left corner of your desktop to launch gedit.
+Type gedit in the Search box.
+Click the gedit icon to open it.
+Type your name and click Close in the top right corner of the gedit window to create and close a file.
+Click Save As to save the created file.
+Select Documents from the left panel of the Save As window.
+Type Test to save the file by that name.
+Click Save to save the file and close gedit.
+This brings you back to the Document directory.
+Right-click the Test file in the Document window.
+Select Move to Trash to remove the file.

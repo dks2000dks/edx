@@ -1,0 +1,24 @@
+0
+00:00:00,798 --> 00:00:03,739
+1. Click the file manager icon on the left panel.
+
+1
+00:00:03,967 --> 00:00:06,520
+By default it explores your home directory.
+
+2
+00:00:07,591 --> 00:00:14,294
+2. To see all directories under "root directory", click Computer on the left Places pane inside this window.
+
+3
+00:00:15,866 --> 00:00:18,625
+3. Double-click the etc directory to open it.
+
+4
+00:00:20,335 --> 00:00:25,395
+4. Double-click avahi and press Ctrl + l to see the current location.
+
+5
+00:00:25,715 --> 00:00:31,505
+The current path appears at the top of the window. The path for this is "/etc/avahi".
+

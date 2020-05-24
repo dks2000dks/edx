@@ -1,0 +1,18 @@
+Let's get started with how to navigate through the directory history using the command prompt.
+1. Let us say, we have two directories named dir1 and dir2 created under tmp directory and the current working directory is the test3's home directory.
+2. To change from test3's home directory to dir1 under tmp directory, at the command prompt type cd /tmp/dir1 and press Enter.
+3. To push the current directory to stack type pushd. and press Enter.
+Now you working directory is dir1.
+4. Now To change to dir2 under tmp directory, at the command prompt type cd /tmp/dir2 and press Enter.
+Now you working directory is dir2.
+5. To push the current directory to stack, type pushd. and press Enter.
+Now, the stack contains the details of the last two directories that you have pushed.
+6. To view the directories in the stack, at the command prompt type dirs and press Enter.
+You can see the names of the two directories you have pushed to the stack
+7. To pop the top-most directory from the stack, at the command prompt type popd and press Enter.
+8. To check the current working directory, at the command prompt type pwd and press Enter.
+9. To pop the top-most directory from the stack, at the command prompt type popd and press Enter.
+10. To check the current working directory, at the command prompt type pwd and press Enter.
+Now you're working directory is changed to dir1
+11. To pop the top-most directory from the stack, at the command prompt type popd and press Enter.
+Since, no entries are available in the stack you get a notification

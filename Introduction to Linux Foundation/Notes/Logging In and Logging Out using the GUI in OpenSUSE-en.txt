@@ -1,0 +1,13 @@
+To log on to the system, perform the following steps:
+1. Click on the desired user. In this case it is test2.
+The Password box is displayed.
+2. Enter the password for user test2.
+3. Click Sign In.
+The Desktop is displayed.
+Note that the session will load the default or the previous session's choice of desktop environment.
+After entering your username and password, it could take a little while for the graphical environment to start up, depending on your personal settings.
+To log off of the system, perform the following steps:
+1. On the openSUSE screen, click the power icon in the top-right corner.
+2. Click test2.
+3. Click Log Out.
+Click Log Out in the confirmation box.

@@ -1,0 +1,22 @@
+We are now going to demonstrate software package management from a graphical interface using the openSUSE Linux distribution.
+The tool we want to use for doing this is YaST, y-s-t, and there's two different ways I can reach it.
+If I have the GNOME shell extension installed which shows the Applications menu, which doesn't come by default, I can go down to System Tools,
+and then go down to YaST, or I can always go up to the upper right hand corner, click on the Tool icon,
+and then, at the bottom here, on the system, click on YaST. It will want the root password because I'm going to manipulate what's installed on the system.
+And so, if I go Software, I can go to Software Management.
+Now, the first thing that YaST has to do is study the system and get a database of every possible package.
+So, you can look at the packages on the system in different ways.
+You can look by what's called RPM Groups. So, here's all the Games, grouped under Amusements.
+I have Applications, Development, and all different kinds of Development subcategories, Tools, Documentation, etc.
+Or RPM Groups... No, this is RPM Groups. Okay...
+Or, I can look at Package Groups, which maybe is a little more intuitive.
+So, I could click on, let's say, Multimedia and see all the different programs that are involved in dealing with multimedia.
+Suppose I want to install something or inquire as to where something is installed. I can click on Search and type something in here.
+I'll type gnuplot and I bring up quickly all the different gnuplot programs there are.
+The main one, you see, has a check mark in the box. That means it's already installed.
+I will decide to install gnuplot-doc, which is a small documentation package.
+And then, in order to do the install, I will click on Accept and I will go ahead and do it. It's a pretty small package. It doesn't take long.
+If you needed some other packages to function, it would have installed them at the same time.
+So now, I'll say Continue, and if I can, I want to remove it because I don't really need it.
+I'll type it in the Search again and then I click on here until I get an X for removal. And then I say Accept and it's removing it.
+So that's all I have to do to do some basic package installation and removal under GNOME software with openSUSE. Pretty simple.

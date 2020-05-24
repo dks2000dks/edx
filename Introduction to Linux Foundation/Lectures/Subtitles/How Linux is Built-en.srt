@@ -1,0 +1,44 @@
+0
+00:00:00,049 --> 00:00:16,168
+You use Linux every day, whether you know it or not. Over 850,000 Android phones running Linux are activated every single day.
+
+1
+00:00:16,186 --> 00:00:26,275
+Compare that to just 30,000 Windows phones according to the latest reports. That means one hundred Android devices have come online just since you started watching this video.
+
+2
+00:00:26,277 --> 00:00:38,453
+Nearly 700,000 TVs are sold everyday most of which are running Linux. Eight out of ten financial trades are powered by Linux. Nine out of ten of the world’s super computers run Linux.
+
+3
+00:00:38,455 --> 00:01:01,922
+Google, Twitter, Facebook, and Amazon are all powered by Linux. So how was Linux developed to achieve all of this? Unlike other operating systems like Windows or IOS, Linux is built collaboratively across companies, geographies, and markets resulting in the largest collaborative development project in the history of computing.
+
+4
+00:01:01,923 --> 00:01:42,427
+Just since 2005, about 8000 developers from almost 800 companies have contributed to the Linux kernel. These contributions have resulted in 15 million lines of code, 1.5 million lines written in just the last couple of years. Consider that Homer’s epic Iliad poem is a mere 15000 lines of text, the novel War and Peace, just 56000 words. But it’s not about just the sheer lines of code, it’s also about how quickly Linux is developed and released. For example, a major new kernel comes out every two to three months. Compare this to years for competing operating systems.
+
+5
+00:01:42,428 --> 00:01:52,040
+This is made possible by a unique collaborative development process. When submitting code to the Linux kernel, developers break changes into individual units called patches.
+
+6
+00:01:52,041 --> 00:02:10,351
+A patch describes the lines that need to be changed, added or removed from the source code. Each patch can add a new feature, new support for a device, fix a problem, improve performance, or rework text to be more easily understood. Developers post their patches to the relevant mailing list where other developers can reply with feedback.
+
+7
+00:02:10,352 --> 00:02:25,150
+When the patch is close to being release ready, it is accepted by a senior Linux kernel developer or maintainer, who manages one or more of one hundred different sections of the kernel. This isn’t a guarantee that it will go to the main line, it’s certainly a good sign.
+
+8
+00:02:25,151 --> 00:02:41,682
+Here it gets an even more extensive evaluation. When the maintainer finishes their review, he or she will sign-off on the patch and send it off to Linux creator and Linux Foundation fellow, Linus Torvalds, who has the ultimate authority on what is accepted into the next release, and what is not.
+
+9
+00:02:41,683 --> 00:02:49,292
+Nearly 10,000 patches go into every new release; about 6 patches are applied to a kernel each hour.
+
+10
+00:02:49,293 --> 00:03:11,584
+Linux’s rate of development is simply unmatched. Today, Linux is dominated on mobile devices, in the enterprise and web infrastructure, data centers, supercomputing and more. What’s next? Because together we’re ready.
+

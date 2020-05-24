@@ -1,0 +1,92 @@
+0
+00:00:01,072 --> 00:00:05,037
+Let’s get started on working with files and directories using command prompt
+
+1
+00:00:05,358 --> 00:00:14,624
+To create two empty files test1 & test2 with timestamp : 14 march 2018 2:00 PM:
+
+2
+00:00:14,674 --> 00:00:27,361
+1. At the command prompt, type touch -t 1803141400 test1 test2.
+
+3
+00:00:27,847 --> 00:00:28,713
+2. Press ENTER.
+
+4
+00:00:29,430 --> 00:00:31,021
+To check if files are created:
+
+5
+00:00:31,150 --> 00:00:34,146
+1. At the command prompt, type ls -l.
+
+6
+00:00:34,327 --> 00:00:35,366
+2. Press ENTER.
+
+7
+00:00:35,860 --> 00:00:40,592
+To rename the file test1 to new_test1:
+
+8
+00:00:40,658 --> 00:00:48,292
+1. At the command prompt, type mv test1 new_test1.
+
+9
+00:00:48,622 --> 00:00:49,462
+2. Press ENTER.
+
+10
+00:00:49,479 --> 00:00:51,573
+To remove test2 interactively:
+
+11
+00:00:51,738 --> 00:00:57,459
+1. At the command prompt, type rm -i test2.
+
+12
+00:00:57,888 --> 00:00:58,844
+2. Press ENTER.
+
+13
+00:00:58,926 --> 00:01:01,201
+The Confirmation message is displayed.
+
+14
+00:01:01,284 --> 00:01:03,345
+3. Type y and press ENTER.
+
+15
+00:01:03,691 --> 00:01:07,450
+To remove new_test1 forcefully:
+
+16
+00:01:07,500 --> 00:01:15,265
+1. At the command prompt, type rm -f new_test1.
+
+17
+00:01:15,661 --> 00:01:16,667
+2. Press ENTER.
+
+18
+00:01:16,716 --> 00:01:19,420
+To create a directory dir1:
+
+19
+00:01:19,470 --> 00:01:24,663
+1. At the command prompt, type mkdir dir1.
+
+20
+00:01:25,075 --> 00:01:25,982
+2. Press ENTER.
+
+21
+00:01:26,427 --> 00:01:31,407
+To remove a directory dir1: mdir dir1.
+
+22
+00:01:31,489 --> 00:01:32,247
+2. Press ENTER.
+

@@ -1,0 +1,14 @@
+Let's use the man utility to get some information about sockets on our system.
+If I just type "man socket", I get chapter 2 of the Linux Programmer's Manual, I get the page in there in chapter 2 that has to do with sockets.
+This is a pretty general page that tells me a lot of information about sockets and different protocols that they can use.
+If I want to get a list of all the pages that are called socket, I do "man -f socket". You see there is actually five of them in different chapters.
+That, by the way, it's exactly the same as saying "whatis socket".
+So, "man -f" and apropos are the same. If I want to see a particular page, say chapter 7, I can do "man 7 socket", and I'm getting the man page in chapter 7, which is rather detailed.
+If I want to see them all at once, I can say "man -a socket" for all, I guess.
+And I can space my way through this one. If I hit Q, it's telling me if I hit Return I'll see the next one, 3p, so let's do that now.
+I'll hit Q again, you see, if I want to get out, rather than going through the rest of them, the next one would be 7, I can hit Ctrl-C. Ctrl-D would just skip the next one.
+If I want to see all man pages that have the word socket in their basic description, I do that with "man -k",
+and that's a rather long list because sockets are pretty basic and involve all sorts of things on your system.
+"man -k" is exactly the same with just typing "apropos socket", and I get the exact same thing.
+So, that's just some basic day-to-day functioning of using man to get information.
+You should play around with different man pages and look at the real contents and that means see how they differ from page to page.

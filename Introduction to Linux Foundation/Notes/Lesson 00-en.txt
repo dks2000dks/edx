@@ -1,0 +1,5 @@
+Best way to learn Linux is by doing it.
+And, this is very much a hands-on class.
+So, you’ll need to have a Linux system up and running that can either be a native Linux system on your hardware,
+one running through a live USB stick or CD or virtual machine running through a hypervisor.
+We’ll show you all these methods, so let’s get going.

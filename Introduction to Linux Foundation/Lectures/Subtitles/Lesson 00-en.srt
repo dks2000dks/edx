@@ -1,0 +1,20 @@
+0
+00:00:04,585 --> 00:00:06,855
+Best way to learn Linux is by doing it.
+
+1
+00:00:07,101 --> 00:00:09,371
+And, this is very much a hands-on class.
+
+2
+00:00:09,375 --> 00:00:15,721
+So, you’ll need to have a Linux system up and running that can either be a native Linux system on your hardware,
+
+3
+00:00:16,035 --> 00:00:21,850
+one running through a live USB stick or CD or virtual machine running through a hypervisor.
+
+4
+00:00:21,851 --> 00:00:24,367
+We’ll show you all these methods, so let’s get going.
+

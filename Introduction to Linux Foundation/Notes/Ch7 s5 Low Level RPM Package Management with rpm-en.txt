@@ -1,0 +1,23 @@
+And now we'll get some practice using the low-level rpm command in order to look at a package, try to remove it, etc.
+So, we're going to type "rpm -qa" for query, and look at all packages on the system,
+and then we're going to grep to look for the package bzip2.
+Okay. And you see, there is actually 2 rpm packages which have bzip2 in their names: the actual bzip2 program and then bzip2-libs, which is libraries that depend on bzip2.
+So, let's take a look more at information about bzip2. If I do "rpm -q" for query, "i" for information, and then "l" for a list of files [rpm -qil], and that's a lot, so, I'll pipe it through "less"...
+Oops I forgot to give the name of the package; so, bzip2...
+you see, the name is bzip2, you see its version - 1.0.6, we see its source, rpm here, we see when it was released - in November 2015, at centos.org,
+and then a description of what it does... it's a freely available, patent-free high quality data compressor, etc., and then, a list of the files that are part of bzip2.
+If I want to get a little bit more detailed look at what's in there, I could do something a little fancier, like "rpm -ql  bzip2",  we just list the files,
+and then I'll make that a shell command and substitute for it, and do an "ls -lF" on that [ls -lF $(rpm -ql bzip2)].
+So this will give me a detailed listing, and then, I'll pipe it into "less", and these are the actual files that are in the package in a little bit more detail, like their length and what type of files...
+You'll notice, for instance, bunzip2 and bzip2 are really the same file, it's just a symbolic link, and the system knows what to do or, I should say, the application knows what to do,
+whether to zip or unzip, depending on how it's called.
+Now, let's see what happens if I try to remove the package.
+So, I should be root to do that. So, do an "sudo", and then, I'll do "rpm -e" for erase, and then, just to be extra careful, I'll use the "--test", which means it won't actually do anything with this option. It'll just see if it could do it... bzip2 [sudo rpm -e --test bzip2].
+So, I try to remove it and it's telling me that I can't do that because it's needed by those following three packages,
+as well as the file-roller program, which is an archiving program present on basically all Linux distributions.
+And then, I can get a little more information in a different way with "rpm -q --whatprovides bzip2",
+and you'll see it's the bzip2 package,
+and if I do "--whatrequires" [rpm -q --whatrequires bzip2],
+I get the same information about the three packages that I would need to have bzip2 installed for them to behave properly and not crash or anything.
+A little bit later we're going to discuss yum, and zipper, and also dnf, which are higher level programs that can handle dependencies in robust fashion.
+rpm is really designed for individual packages which are listed on the command line, or groups of packages listed on the command line.

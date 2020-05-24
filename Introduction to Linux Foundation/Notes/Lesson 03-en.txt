@@ -1,0 +1,3 @@
+In this session, we will discuss the Linux boot process, from the boot loader into the graphical user interface.
+We will also talk about planning a Linux installation as we have a lot of choices to make and we will guide you through the installation of a Linux system.
+Let’s go.

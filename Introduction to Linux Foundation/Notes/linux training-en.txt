@@ -1,0 +1,15 @@
+There are a ton of Linux jobs available on the market today and there are not enough system administrators and developers to fulfill that demand. The Linux foundation exists to advance the platform and make sure that there is a strong pool of talent, to meet the markets needs.
+We are here to teach them what’s in Linux and how they can quickly start using it and how they can make a contribution as well. And, it’s because of the scattered nature of a lot of things on Linux it would be difficult for people to assemble all that material on their own.
+Taking the course here, landed me the lead spot in the Linux team.
+You have a task to do and we want to help you to do it quickly.
+I have learned a lot of shortcuts, a lot of ways that I could be watching and monitoring server usage and IO usage.
+One is we are vendor neutral , we don’t particularly promote one variety of Linux over another one…distribution or whatever.
+We try to make sure that everything will work on every distribution. Secondly, we keep everything extremely up to date. For instance, all our kernel level classes we issue a new material every time a new kernel comes out.
+The one thing that shocked me was because the kernel moved so fastly so quickly, that he was up to date and knew exactly where things were and what was already (you know) dated in his manual.
+The third thing is that because the foundation has a strong connection with a lot of leading kernel developers, we got a very good idea of (you know) what’s going on in the community. We have some of those people review our material and make suggestions and contribute to development of them.
+We try to keep the classes at about fifty percent hands-on exercise time and about fifty percent lecture time.
+Jerry was wonderful. He gave us his email so we could contact him if we had other questions; which I did.
+When students take the class, they get detailed courseware manuals. They can be rather fat books, quite a few hundred pages in some cases that are not just a series of slides that give bullet points but are detailed books.
+I am glad it comes with a booklet because this is something (you know) if you do not use it you forget. But if something comes up in a few years, I can open a booklet and remember and say, hey we can do this without hiring a consultant.
+You tap into the pool of the Linux foundation resources. Our summits, our events, our materials, additional white papers. We are a resource for you to grow your career and your network and integrate into both the professional community as well as the developer community for open source.
+Well I was struck that I was contacted afterwards by the Linux Foundation, by Mike Wooster, who was actually (you know) helping corporations fill positions for kernel developers

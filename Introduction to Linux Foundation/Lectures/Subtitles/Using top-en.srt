@@ -1,0 +1,60 @@
+0
+00:00:00,351 --> 00:00:02,845
+Let's get started with using the top command.
+
+1
+00:00:02,865 --> 00:00:04,384
+To use the top command:
+
+2
+00:00:04,408 --> 00:00:05,860
+1. Open the command prompt.
+
+3
+00:00:05,897 --> 00:00:07,989
+2. Type top and press Enter.
+
+4
+00:00:08,031 --> 00:00:11,160
+Real-time updates of the running processes are displayed.
+
+5
+00:00:11,318 --> 00:00:13,885
+3. To hide the memory information, press m.
+
+6
+00:00:13,910 --> 00:00:16,010
+The memory information is hidden.
+
+7
+00:00:16,080 --> 00:00:19,275
+4. To display the memory information, press m again.
+
+8
+00:00:19,302 --> 00:00:21,413
+The memory information is displayed.
+
+9
+00:00:21,481 --> 00:00:24,061
+5. To renice a process, press r.
+
+10
+00:00:24,073 --> 00:00:28,486
+You are prompted to enter the PID of the process that you want to renice.
+
+11
+00:00:28,845 --> 00:00:32,347
+6. Enter the process’s PID and press Enter.
+
+12
+00:00:32,665 --> 00:00:35,287
+You are prompted to enter renice value.
+
+13
+00:00:35,742 --> 00:00:40,194
+7. Type the required value; for example, type 5 and press Enter.
+
+14
+00:00:40,336 --> 00:00:43,123
+The renice value of the process is updated.
+

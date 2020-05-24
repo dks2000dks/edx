@@ -1,0 +1,6 @@
+1. Click the file manager icon on the left panel.
+By default it explores your home directory.
+2. To see all directories under "root directory", click Computer on the left Places pane inside this window.
+3. Double-click the etc directory to open it.
+4. Double-click avahi and press Ctrl + l to see the current location.
+The current path appears at the top of the window. The path for this is "/etc/avahi".

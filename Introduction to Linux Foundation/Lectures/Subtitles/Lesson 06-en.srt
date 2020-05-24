@@ -1,0 +1,12 @@
+0
+00:00:04,292 --> 00:00:09,498
+The graphical interface is a nice and comfortable way to use the Linux system but the real power of Linux is in the command line.
+
+1
+00:00:09,557 --> 00:00:15,538
+The good news is that today you start to customize your Linux system with command line; the bad news is that you might never stop.
+
+2
+00:00:15,697 --> 00:00:16,710
+Let’s get started!
+

@@ -1,0 +1,15 @@
+Let's get started with using the top command.
+To use the top command:
+1. Open the command prompt.
+2. Type top and press Enter.
+Real-time updates of the running processes are displayed.
+3. To hide the memory information, press m.
+The memory information is hidden.
+4. To display the memory information, press m again.
+The memory information is displayed.
+5. To renice a process, press r.
+You are prompted to enter the PID of the process that you want to renice.
+6. Enter the process’s PID and press Enter.
+You are prompted to enter renice value.
+7. Type the required value; for example, type 5 and press Enter.
+The renice value of the process is updated.

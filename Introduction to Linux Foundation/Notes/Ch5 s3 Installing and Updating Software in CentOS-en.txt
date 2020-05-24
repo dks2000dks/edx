@@ -1,0 +1,19 @@
+We are now going to demonstrate basic software package management on a CentOS 7 system using a graphical interface.
+The easiest way to do this is to go through the Applications menu in the upper left corner.
+Scroll down to System Tools, and then go over to Software.
+And this lists the different kinds of software that's on the system, organized by category.
+It's a pretty minimal interface, but quite useful.
+So, for instance, on desktops, you see, I could have GNOME, KDE, Xfce, etc.
+There are different possibilities.
+And these are the packages that are associated with these different desktops.
+If I want to search for a particular kind of package, let's say I'll look at gnuplot, g-n-u-p-l-o-t
+it's searching the database on the system, and it found here, with the check marks, I have already installed gnuplot and gnuplot-common.
+Suppose I want to install the documentation package, which is a simple but small package...
+So here, gnuplot-doc, so I clicked on that, I said Apply Changes...
+it's asking me for the root password because I'm installing software, and then it did that very quickly... it's a very small package.
+And if I want to remove it, then I can just uncheck the box here now, and click Apply Changes,
+and it's going to ask me to okay that is what I really wanted to do...
+If you're required any other software packages to be removed at the same time, it would let me know about that now,
+just as when I installed it, if it required other software packages to be installed to enable this to run, it would have told me that too.
+So I just say Continue. Once again, it's asking me for the super user password, and it's done.
+So that's all you have to do to easily install or remove just a single package on the system from a graphical interface.

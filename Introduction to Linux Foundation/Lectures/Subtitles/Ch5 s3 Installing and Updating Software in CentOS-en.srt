@@ -1,0 +1,76 @@
+0
+00:00:00,520 --> 00:00:10,780
+We are now going to demonstrate basic software package management on a CentOS 7 system using a graphical interface.
+
+1
+00:00:10,780 --> 00:00:16,060
+The easiest way to do this is to go through the Applications menu in the upper left corner.
+
+2
+00:00:16,059 --> 00:00:22,180
+Scroll down to System Tools, and then go over to Software.
+
+3
+00:00:22,180 --> 00:00:29,340
+And this lists the different kinds of software that&#39;s on the system, organized by category.
+
+4
+00:00:29,340 --> 00:00:32,640
+It&#39;s a pretty minimal interface, but quite useful.
+
+5
+00:00:32,640 --> 00:00:40,040
+So, for instance, on desktops, you see, I could have GNOME, KDE, Xfce, etc.
+
+6
+00:00:40,040 --> 00:00:42,220
+There are different possibilities.
+
+7
+00:00:42,220 --> 00:00:47,280
+And these are the packages that are associated with these different desktops.
+
+8
+00:00:47,280 --> 00:00:56,640
+If I want to search for a particular kind of package, let&#39;s say I&#39;ll look at gnuplot, g-n-u-p-l-o-t
+
+9
+00:00:56,640 --> 00:01:07,500
+it&#39;s searching the database on the system, and it found here, with the check marks, I have already installed gnuplot and gnuplot-common.
+
+10
+00:01:07,500 --> 00:01:13,900
+Suppose I want to install the documentation package, which is a simple but small package...
+
+11
+00:01:13,900 --> 00:01:21,290
+So here, gnuplot-doc, so I clicked on that, I said Apply Changes...
+
+12
+00:01:21,290 --> 00:01:31,660
+it&#39;s asking me for the root password because I&#39;m installing software, and then it did that very quickly... it&#39;s a very small package.
+
+13
+00:01:31,660 --> 00:01:43,909
+And if I want to remove it, then I can just uncheck the box here now, and click Apply Changes,
+
+14
+00:01:46,500 --> 00:01:52,860
+and it&#39;s going to ask me to okay that is what I really wanted to do...
+
+15
+00:01:52,860 --> 00:02:01,220
+If you&#39;re required any other software packages to be removed at the same time, it would let me know about that now,
+
+16
+00:02:01,220 --> 00:02:09,000
+just as when I installed it, if it required other software packages to be installed to enable this to run, it would have told me that too.
+
+17
+00:02:09,000 --> 00:02:17,860
+So I just say Continue. Once again, it&#39;s asking me for the super user password, and it&#39;s done.
+
+18
+00:02:17,860 --> 00:02:27,640
+So that&#39;s all you have to do to easily install or remove just a single package on the system from a graphical interface.
+

@@ -1,0 +1,32 @@
+0
+00:00:00,200 --> 00:00:07,420
+We&#39;re going to demonstrate how to change the background wallpaper on a Red Hat 7 system.
+
+1
+00:00:07,420 --> 00:00:14,240
+All recent Linux distributions have exactly the same method, so this will suffice to show for all.
+
+2
+00:00:14,240 --> 00:00:23,600
+So, all we have to do is click on the background with a right-click and [choose] &quot;Change Background&quot;.
+
+3
+00:00:23,600 --> 00:00:31,860
+Click on &quot;Background&quot; again, and then we have a choice between wallpapers that the system knows already.
+
+4
+00:00:31,860 --> 00:00:41,480
+And it&#39;s possible to load up other ones. So, let&#39;s say we pick this one here and you see now the background has been changed.
+
+5
+00:00:41,480 --> 00:00:49,660
+Or I could pick for instance a picture stored on my machine in my pictures directory, under my home directory.
+
+6
+00:00:49,660 --> 00:00:55,720
+So, I&#39;ll pick this one and you see it&#39;s been changed.
+
+7
+00:00:55,720 --> 00:01:02,400
+So that&#39;s all we have to do to change the background on any recent Linux system.
+

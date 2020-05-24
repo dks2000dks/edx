@@ -1,0 +1,13 @@
+Let's demonstrate some basic package management functions on an openSUSE system using the zipper utility.
+So first, let's look for all packages with "zypper search" that have the string gnuplot in them.
+And we see a number of packages. Let's concentrate on the documentation package [gnuplot-doc].
+So, suppose I try to install that and for that, I have to be a super user for an installation.
+So, I do "sudo zypper install gnuplot-doc".
+And you notice it's telling me and I will not only have to install gnuplot-doc, I would have to install gnuplot, which is the actual program that gnuplot-doc documents.
+So, I'll say sure, yes.
+And it's being done successfully. If I want to get some information about the package, I can do "rpm -qi gnuplot-doc", and for this, once again, I do not have to be root.
+And it's telling me the name, the version, the size, all sorts of things. And, under the purpose, it's telling me it includes the man and the info pages for this rather useful plotting program.
+Now, suppose I want to remove this package. I can do "zypper remove gnuplot". Let's say I try to remove gnuplot, not gnuplot-doc,
+and it's telling me that, if I remove gnuplot, I also have to remove gnuplot-doc, because otherwise there would be unmet dependencies.
+So, I say yes, for sure, and now both of them are gone.
+So that's the basic steps you would take to look for a package, install it, get some information about it, and remove it using zypper.

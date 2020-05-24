@@ -1,0 +1,36 @@
+0
+00:00:00,020 --> 00:00:05,700
+Let&#39;s now demonstrate how to set default applications on a Red Hat 7 system.
+
+1
+00:00:05,700 --> 00:00:13,760
+We go to the upper right hand corner, click on the top bar, and then scroll down to the gears icon for settings.
+
+2
+00:00:13,760 --> 00:00:16,840
+Go down to the bottom for Details.
+
+3
+00:00:16,840 --> 00:00:26,500
+And then I can click on Default Applications. So, you see, under Web or Browser, there are three choices on this system.
+
+4
+00:00:26,500 --> 00:00:31,780
+I have Google Chrome, Firefox or Opera. We&#39;ll leave it at Google Chrome.
+
+5
+00:00:31,780 --> 00:00:42,680
+For video, the default choice is Videos, which is actually a program called Totem. Well, let&#39;s switch it to the VLC media player.
+
+6
+00:00:42,680 --> 00:00:51,480
+And for the image viewer, I have the built-in Image Viewer, or I could  switch to the GNU Image Manipulation Program, better known as GIMP.
+
+7
+00:00:51,480 --> 00:00:59,940
+So, on all recent distributions with a GNOME desktop, the procedure is identical and absolutely the same.
+
+8
+00:00:59,940 --> 00:01:05,040
+It is very simple to change your default applications.
+

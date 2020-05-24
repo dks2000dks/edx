@@ -1,0 +1,8 @@
+We're going to demonstrate how to change the background wallpaper on a Red Hat 7 system.
+All recent Linux distributions have exactly the same method, so this will suffice to show for all.
+So, all we have to do is click on the background with a right-click and [choose] "Change Background".
+Click on "Background" again, and then we have a choice between wallpapers that the system knows already.
+And it's possible to load up other ones. So, let's say we pick this one here and you see now the background has been changed.
+Or I could pick for instance a picture stored on my machine in my pictures directory, under my home directory.
+So, I'll pick this one and you see it's been changed.
+So that's all we have to do to change the background on any recent Linux system.

@@ -1,0 +1,4 @@
+In Linux, all the application programs we are running are processes.
+In this lesson, we are going to explore the concept of processes.
+We are going to find out which processes are running; how to automatically start processes and how to list the resources that a process consumes.
+Now, let’s get started!

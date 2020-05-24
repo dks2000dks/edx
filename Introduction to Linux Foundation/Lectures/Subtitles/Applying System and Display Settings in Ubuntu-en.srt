@@ -1,0 +1,36 @@
+0
+00:00:00,541 --> 00:00:06,157
+To change screen resolution to 1024 x 768 in Ubuntu:
+
+1
+00:00:06,633 --> 00:00:09,705
+1. On the left panel, click the System Settings icon.
+
+2
+00:00:10,826 --> 00:00:12,981
+The System Settings window is displayed.
+
+3
+00:00:13,312 --> 00:00:14,927
+2. Click the Displays icon.
+
+4
+00:00:15,542 --> 00:00:17,836
+The Displays dialog box is displayed.
+
+5
+00:00:18,307 --> 00:00:23,186
+3. From the Resolution drop-down list, select 1024 x 768.
+
+6
+00:00:25,370 --> 00:00:26,682
+4. Click the Apply button.
+
+7
+00:00:27,402 --> 00:00:29,551
+A confirmation message is displayed.
+
+8
+00:00:29,952 --> 00:00:32,055
+5. Click Keep This Configuration.
+

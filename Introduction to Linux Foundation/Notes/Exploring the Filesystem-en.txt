@@ -1,0 +1,16 @@
+Let’s get started with how to explore the filesystem.
+To access /usr/local/lib from the /usr directory using absolute path:
+1. At command prompt, type cd /usr/local/lib and press ENTER
+Go back to /usr directory, by typing  cd /usr and press ENTER
+To access /usr/local/lib from the /usr directory using relative path:
+1. At command prompt, type cd local/lib and press ENTER.
+To get to the root directory:
+1. At the command prompt, type the cd / command and press ENTER.
+To get a list of the files and directory in the present working directory:
+At the command prompt, type the ls command and press ENTER
+To get a list of  hidden files and hidden directories:
+1. At the command prompt, type the ls –a command and press ENTER
+To get a tree view of the filesystem:
+At the command prompt, type the tree command and press ENTER
+To get a tree view of only directories in the filesystem:
+At the command prompt, type the tree -d / command and press ENTER

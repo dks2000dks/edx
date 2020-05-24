@@ -1,0 +1,15 @@
+Let's get some practice with the basic low-level command for the Debian packaging system, dpkg or d-package.
+So, to get a list of all the packages on the system, I can simply type "dpkg --list".
+and I'll just pipe that into "less" because it's a long list.
+Okay. Actually, if I don't use "less", for some reason, it's more compact.
+Okay. So, there are a lot of different packages on the system.
+Now, if I want to see some information just about a particular package, I could just grep let's say bzip2, to see what's going on with bzip2.
+And that's the information about bzip2. That tells us the version number, the architecture, which here is amd64, and its description as a high quality block sorting file compressor utility.
+So, it's a more advanced program and with better compression than gzip or the old-fashioned zip program.
+If I want to see what's actually contained in that package, I can do "dpkg --listfiles" and then the name of it [bzip2], and then I'll go slower by putting it into "less",
+and you'll see, there's the executables in the /bin directory, and then, what's under /usr is basically documentation, under /usr/share/doc, usr/share/man, etc.
+If I try to remove the package, let's see what happens.
+So, do "sudo dpkg". I, of course, have to have root privilege to remove the package.
+So, I'm removing bzip2, "dpkg --remove bzip2", and it's telling me I cannot do this because I need the developing package dpkg-dev. That would be headers and stuff for programs which use this in a library version.
+And file-roller, which is an archive extractor that's common on Linux systems. So, I would have to remove all three of them.
+We'll see later, when we use tools like apt-get, it's easier to deal with these dependencies.

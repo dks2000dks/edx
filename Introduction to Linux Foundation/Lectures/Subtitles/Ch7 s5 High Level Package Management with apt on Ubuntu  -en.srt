@@ -1,0 +1,60 @@
+0
+00:00:01,840 --> 00:00:09,760
+So, let's do some basic package management on an Ubuntu system using Debian packaging.
+
+1
+00:00:09,760 --> 00:00:16,380
+We're going to use the high-level utilities which understand dependencies: apt-cache and apt-get.
+
+2
+00:00:16,379 --> 00:00:35,200
+So, first, let's look for all packages that contain the string wget2. So we do that with apt-cache search wget2, and it comes up with wget2 and wget2-dev.
+
+3
+00:00:35,200 --> 00:00:47,620
+This is an enhancement to the standard wget utility, which is used for recursive downloading of the content of a website or some other kinds of resources.
+
+4
+00:00:47,629 --> 00:00:58,250
+So, let's just try an install. So, do sudo apt-get install wget2-dev.
+
+5
+00:00:58,520 --> 00:01:06,220
+And it's telling me it also needs to install libwget0 and wget2.
+
+6
+00:01:06,220 --> 00:01:14,460
+It shouldn't be that surprising that you need to install the base packages on which the development packages build on.
+
+7
+00:01:14,460 --> 00:01:24,509
+And it will download 264 kB of archives, but once everything is installed, it will expand out to 805 kB.
+
+8
+00:01:24,509 --> 00:01:31,300
+So, let's just say yes. I'll type y. And it quickly goes ahead and does all that.
+
+9
+00:01:31,300 --> 00:01:47,000
+Now, suppose we want to remove wget2-dev. Or, more interesting, let's try to remove wget itself.
+
+10
+00:01:47,619 --> 00:01:57,420
+So, what is it doing? Oh, I shouldn't have removed wget. I meant wget2. wget I do not want to remove. So, I'll type it again with the 2.
+
+11
+00:01:57,420 --> 00:02:08,620
+And you see, it wants to remove wget2-dev as well, because without wget2, wget2-dev doesn't have much meaning.
+
+12
+00:02:08,620 --> 00:02:17,600
+Ok and we no longer need the libwget0. It's sort of orphaned out, but we'll leave it there for now.
+
+13
+00:02:17,600 --> 00:02:24,740
+So, I'll just say yes and I have removed things from my system.
+
+14
+00:02:24,740 --> 00:02:34,820
+So, that's the most basic operations you would need to do on an Ubuntu system using Debian packaging.
+

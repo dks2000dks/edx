@@ -1,0 +1,36 @@
+0
+00:00:01,300 --> 00:00:08,180
+Let us demonstrate how to switch users on an Ubuntu machine with several accounts.
+
+1
+00:00:08,180 --> 00:00:18,720
+So first, I will choose the Linux Foundation student as the account to log into, type my password, and sign in.
+
+2
+00:00:18,720 --> 00:00:31,740
+And then, if I look in the upper right hand corner and click there, I will see LF Student and I can click on either &quot;Log Out&quot; or &quot;Switch User&quot;.
+
+3
+00:00:31,740 --> 00:00:44,800
+Notice if I log out, I really log out, but if I switch users, I will just lock the user account, and then, when I start up, I will preserve all of my sessions and open windows, etc. when I restart.
+
+4
+00:00:44,800 --> 00:00:51,100
+On some distributions you may actually see a list of users at this screen, but not on Ubuntu.
+
+5
+00:00:51,100 --> 00:01:04,440
+So I&#39;ll say &quot;Switch User&quot; and I&#39;m back to the greeter screen, and let me pick the second one, Theodore Cleaver, and login as that other user.
+
+6
+00:01:04,440 --> 00:01:15,920
+And there we go. And now, if I look up here again, I can do the same thing. So, let me click on the name, I&#39;ll say &quot;Switch User&quot;,
+
+7
+00:01:15,920 --> 00:01:28,640
+and if I pick student again, you&#39;ll notice here it says &quot;Unlock&quot;, and not &quot;Restart&quot;. That means that, if I were to login now, I will have preserved all the open windows and running applications from before.
+
+8
+00:01:28,640 --> 00:01:41,509
+This will look the same essentially on all Linux distributions of recent vintage. So it&#39;s very easy to switch users and not lose any information from what you&#39;re already doing.
+

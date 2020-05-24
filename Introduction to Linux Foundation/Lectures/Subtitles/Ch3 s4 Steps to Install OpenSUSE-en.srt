@@ -1,0 +1,156 @@
+0
+00:00:00,060 --> 00:00:10,000
+We are now going to do a fresh install of openSUSE as a virtual machine under a  VMware hypervisor on a Red Hat 7 system.
+
+1
+00:00:10,000 --> 00:00:15,980
+We have already inserted the install DVD, and we are about to begin.
+
+2
+00:00:15,980 --> 00:00:29,660
+Notice that in our initial screen we can do an installation, an upgrade, or, if we scroll down to more, we see that we can also use the install DVD as a rescue system.
+
+3
+00:00:29,660 --> 00:00:42,860
+We can check memory and do various things, but we&#39;re going to do an install. So, I&#39;ll just click on &quot;Install&quot;, and then, it will cook for a while before it asks me to do anything.
+
+4
+00:00:42,860 --> 00:00:51,680
+So now it&#39;s finding all the hardware, deciding what drivers to use, etc. and getting started.
+
+5
+00:00:52,840 --> 00:00:58,300
+This is openSUSE Leap version 42.3.
+
+6
+00:01:01,720 --> 00:01:10,220
+And this is a typical GNOME graphical booting screen while it&#39;s getting itself ready,
+
+7
+00:01:14,520 --> 00:01:17,280
+which should take a few more seconds...
+
+8
+00:01:17,280 --> 00:01:21,460
+I&#39;ll pause so we don&#39;t have to watch the whole thing...
+
+9
+00:01:21,460 --> 00:01:29,570
+okay, it has moved on and it&#39;s about ready to bring up a graphical screen. And there we go.
+
+10
+00:01:29,740 --> 00:01:33,440
+So, it&#39;s initializing the hardware on the system.
+
+11
+00:01:37,040 --> 00:01:48,560
+Okay... now it&#39;s asking whether we want to accept English as a language and also the License Agreement. So, we&#39;ll just say sure. Click on the &quot;Next&quot; button.
+
+12
+00:01:48,560 --> 00:01:53,640
+It&#39;s doing more probing of the system, deciding what to do...
+
+13
+00:01:55,460 --> 00:02:07,700
+And it says in a very small font &quot;Initializing the installation&quot;. Now, it would like to take a default partition scheme, which we will override.
+
+14
+00:02:07,700 --> 00:02:16,220
+So, let me say &quot;Edit proposed settings&quot;. And I will take a partition-based proposal.
+
+15
+00:02:16,220 --> 00:02:30,020
+I will choose for my root partition ext4. I won&#39;t have any separate home partition or other partitions to keep things simple. And that&#39;s all I have to choose. It&#39;s pretty simple.
+
+16
+00:02:30,020 --> 00:02:46,579
+And it says here it&#39;s going to create a swap partition of 2 gigabytes and then a root partition for everything else - 28 gigabytes. And so, I&#39;m happy enough with that. So, I&#39;ll just say &quot;Next&quot;.
+
+17
+00:02:51,740 --> 00:03:00,120
+And first thing is just to pick the timezone. So, I&#39;ll pick Central Time, where I am currently sitting.
+
+18
+00:03:00,120 --> 00:03:11,420
+And I could do some other settings... do that unless I don&#39;t want to take an automatic time setting... so I just say &quot;Next&quot;.
+
+19
+00:03:11,420 --> 00:03:26,400
+And here I have a choice for what kind of desktop... let me pick the GNOME desktop... I could pick the KDE or as a server - pure text mode, no graphical, or I could do custom, to do something a little more complicated or different.
+
+20
+00:03:26,400 --> 00:03:40,260
+And then it wants me to give a full name for the main user. So, I&#39;ll say &quot;LF Student&quot;, and for the username I&#39;ll pick &quot;student&quot; and I&#39;ll give a password.
+
+21
+00:03:40,260 --> 00:03:47,580
+And then, I will not pick &quot;Use this password for system administrator&quot;. That would be like what Ubuntu does.
+
+22
+00:03:47,580 --> 00:03:55,260
+And I will not pick &quot;Automatic login&quot;. It&#39;s generally not a good idea to let your system log in without having to give a password.
+
+23
+00:03:55,260 --> 00:04:06,880
+So, I&#39;ll say &quot;Next&quot;. It doesn&#39;t like my password because it&#39;s too simple, but I&#39;ll say &quot;okay, do it&quot;, and now I have to give a root password.
+
+24
+00:04:06,880 --> 00:04:14,600
+And you might want to test your keyboard layout, to make sure you have the right language. I&#39;ll say &quot;Next&quot;.
+
+25
+00:04:14,600 --> 00:04:25,260
+And, once again, it&#39;s gonna complain my password is too simple. And then I just say &quot;Install&quot; and that&#39;s all the choices that I actually have to make.
+
+26
+00:04:25,260 --> 00:04:33,100
+So really nothing except specifying username, password and what kind of desktop I want.
+
+27
+00:04:33,100 --> 00:04:37,800
+We can do further adjustments once the system is fully installed.
+
+28
+00:04:37,800 --> 00:04:52,360
+Now, while it&#39;s installing, which should take about 10 minutes, the default screen here is a slideshow giving you brochures and information. And if I click on &quot;Details&quot;, it&#39;s a little more fun to look at.
+
+29
+00:04:52,360 --> 00:05:05,040
+So, you can see the overall progress as it goes. This first bar here is for each package as it&#39;s being installed and on the bottom you can see I&#39;m already about 15% installed.
+
+30
+00:05:05,040 --> 00:05:15,360
+So, I&#39;m going to pause recording. This is kind of boring to watch install all 1,500 packages on a wait until it&#39;s asking me to do something again before resuming.
+
+31
+00:05:15,380 --> 00:05:25,100
+Okay, that took about less than 10 minutes and now it&#39;s telling me the system is going to reboot and it did.
+
+32
+00:05:25,100 --> 00:05:33,760
+And so we&#39;ll just see our normal booting of the new openSUSE system.
+
+33
+00:05:37,360 --> 00:05:43,060
+And it should quickly bring up the login screen.
+
+34
+00:05:48,100 --> 00:05:51,640
+Just a few more seconds...
+
+35
+00:05:59,780 --> 00:06:11,280
+And there&#39;s our usual greeter screen. I&#39;ll just type in the password for the &quot;student&quot; account and we have a fully operational openSUSE system.
+
+36
+00:06:11,280 --> 00:06:24,180
+Now, the first thing I would do from here is update the system, because there&#39;s always new updates for the various packages since the DVD install disk was released.
+
+37
+00:06:24,180 --> 00:06:38,440
+So that&#39;s important for both security and performance. And it&#39;s even prompting me to go ahead and do that. And I&#39;d probably do some minor customizations about what kind of menus I see, how windows behave, the keyboard. etc.
+
+38
+00:06:38,440 --> 00:06:44,000
+But I&#39;ll leave that for people to do that as an exercise.
+

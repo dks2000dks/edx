@@ -1,0 +1,60 @@
+0
+00:00:00,280 --> 00:00:10,860
+Let&#39;s get some practice with the basic low-level command for the Debian packaging system, dpkg or d-package.
+
+1
+00:00:10,860 --> 00:00:19,560
+So, to get a list of all the packages on the system, I can simply type &quot;dpkg --list&quot;.
+
+2
+00:00:19,560 --> 00:00:25,600
+and I&#39;ll just pipe that into &quot;less&quot; because it&#39;s a long list.
+
+3
+00:00:25,600 --> 00:00:31,200
+Okay. Actually, if I don&#39;t use &quot;less&quot;, for some reason, it&#39;s more compact.
+
+4
+00:00:31,200 --> 00:00:35,500
+Okay. So, there are a lot of different packages on the system.
+
+5
+00:00:35,500 --> 00:00:46,580
+Now, if I want to see some information just about a particular package, I could just grep let&#39;s say bzip2, to see what&#39;s going on with bzip2.
+
+6
+00:00:46,580 --> 00:00:59,960
+And that&#39;s the information about bzip2. That tells us the version number, the architecture, which here is amd64, and its description as a high quality block sorting file compressor utility.
+
+7
+00:00:59,960 --> 00:01:07,600
+So, it&#39;s a more advanced program and with better compression than gzip or the old-fashioned zip program.
+
+8
+00:01:07,600 --> 00:01:23,820
+If I want to see what&#39;s actually contained in that package, I can do &quot;dpkg --listfiles&quot; and then the name of it [bzip2], and then I&#39;ll go slower by putting it into &quot;less&quot;,
+
+9
+00:01:23,820 --> 00:01:37,860
+and you&#39;ll see, there&#39;s the executables in the /bin directory, and then, what&#39;s under /usr is basically documentation, under /usr/share/doc, usr/share/man, etc.
+
+10
+00:01:37,860 --> 00:01:43,220
+If I try to remove the package, let&#39;s see what happens.
+
+11
+00:01:43,220 --> 00:01:51,420
+So, do &quot;sudo dpkg&quot;. I, of course, have to have root privilege to remove the package.
+
+12
+00:01:51,420 --> 00:02:11,460
+So, I&#39;m removing bzip2, &quot;dpkg --remove bzip2&quot;, and it&#39;s telling me I cannot do this because I need the developing package dpkg-dev. That would be headers and stuff for programs which use this in a library version.
+
+13
+00:02:11,460 --> 00:02:19,060
+And file-roller, which is an archive extractor that&#39;s common on Linux systems. So, I would have to remove all three of them.
+
+14
+00:02:19,060 --> 00:02:25,819
+We&#39;ll see later, when we use tools like apt-get, it&#39;s easier to deal with these dependencies.
+

@@ -1,0 +1,76 @@
+0
+00:00:00,456 --> 00:00:04,080
+Let’s get started with accessing directories using the command prompt.
+
+1
+00:00:04,467 --> 00:00:07,779
+To locate the ccache compiler using whereis:
+
+2
+00:00:07,814 --> 00:00:11,412
+1. At the command prompt, type whereis ccache
+
+3
+00:00:12,211 --> 00:00:12,989
+2. Press ENTER.
+
+4
+00:00:13,605 --> 00:00:15,814
+To display the present working directory:
+
+5
+00:00:15,843 --> 00:00:18,890
+1. Type pwd and press ENTER.
+
+6
+00:00:19,708 --> 00:00:23,631
+To change to the /usr/bin directory:
+
+7
+00:00:23,708 --> 00:00:29,560
+1. At the command prompt, type cd /usr/bin and press ENTER.
+
+8
+00:00:30,229 --> 00:00:32,222
+To change to your home directory:
+
+9
+00:00:32,284 --> 00:00:37,155
+1. At the command prompt, type cd ~ or cd.
+
+10
+00:00:37,712 --> 00:00:38,475
+2. Press ENTER.
+
+11
+00:00:39,165 --> 00:00:41,944
+To change to the parent directory of your current directory:
+
+12
+00:00:41,974 --> 00:00:45,486
+1. At the command prompt, type cd ..
+
+13
+00:00:46,067 --> 00:00:46,883
+2. Press ENTER.
+
+14
+00:00:47,178 --> 00:00:48,983
+To change to the previous directory:
+
+15
+00:00:49,047 --> 00:00:51,917
+1. At the command prompt, type cd -.
+
+16
+00:00:52,490 --> 00:00:53,281
+2. Press ENTER.
+
+17
+00:00:53,918 --> 00:00:56,335
+To check where you are with pwd:
+
+18
+00:00:56,645 --> 00:00:59,584
+2. Type pwd and press ENTER.
+

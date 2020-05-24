@@ -1,0 +1,23 @@
+Let’s get started on working with files and directories using command prompt
+To create two empty files test1 & test2 with timestamp : 14 march 2018 2:00 PM:
+1. At the command prompt, type touch -t 1803141400 test1 test2.
+2. Press ENTER.
+To check if files are created:
+1. At the command prompt, type ls -l.
+2. Press ENTER.
+To rename the file test1 to new_test1:
+1. At the command prompt, type mv test1 new_test1.
+2. Press ENTER.
+To remove test2 interactively:
+1. At the command prompt, type rm -i test2.
+2. Press ENTER.
+The Confirmation message is displayed.
+3. Type y and press ENTER.
+To remove new_test1 forcefully:
+1. At the command prompt, type rm -f new_test1.
+2. Press ENTER.
+To create a directory dir1:
+1. At the command prompt, type mkdir dir1.
+2. Press ENTER.
+To remove a directory dir1: mdir dir1.
+2. Press ENTER.

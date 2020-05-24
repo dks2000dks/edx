@@ -1,0 +1,14 @@
+Let’s get started on how to search for files in a directory.
+To search for a file based on a filename:
+1. At the command prompt, type the find / usr -name gcc command.
+2. Press ENTER.
+All the files with GCC as the file name will be displayed.
+To search for a directory based on a filename:
+1. At the command prompt, type the find / usr -type d -name gcc command.
+2. Press ENTER.
+To search files in current directory which were modified today:
+1. At the command prompt, type find -type f -mtime 0.
+2. Press ENTER.
+To search files with size 0 bytes:
+1. At the command prompt, type find -type f -size 0
+2. Press ENTER.

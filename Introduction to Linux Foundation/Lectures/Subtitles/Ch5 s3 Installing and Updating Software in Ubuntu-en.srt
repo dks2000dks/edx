@@ -1,0 +1,108 @@
+0
+00:00:00,680 --> 00:00:10,360
+We are now going to demonstrate package management from a graphical interface in Ubuntu 18.04 Bionic Beaver.
+
+1
+00:00:10,360 --> 00:00:23,920
+There is a default software management tool that comes... called Ubuntu Software Center, which you get by clicking on this box here over on the left hand side,
+
+2
+00:00:23,920 --> 00:00:31,420
+but it&#39;s rather deficient in being able to find packages which are in the normal packaging system.
+
+3
+00:00:31,420 --> 00:00:36,160
+It tends to do better at searching for things that are externally available.
+
+4
+00:00:36,160 --> 00:00:52,079
+A better interface and a rather old one is called Synaptic. But first, we have to install it. So we click on the Search box up here and we type synaptic, and there, it found it.
+
+5
+00:00:52,080 --> 00:01:07,680
+It is the first thing here. So let&#39;s just click on that and say Install. It will require my password to install this package and it should be pretty quick.
+
+6
+00:01:07,680 --> 00:01:16,540
+And then, I will kill by clicking on the upper right-hand X here, I&#39;ll kill the Ubuntu Software Center.
+
+7
+00:01:16,540 --> 00:01:21,580
+And then, if I want to launch Synaptic, there&#39;s a number of ways I can get at it.
+
+8
+00:01:21,580 --> 00:01:31,520
+One way is to click down here in the lower left, under Show Applications, and I can click on it right here, or I could type synaptic in the Search box.
+
+9
+00:01:31,520 --> 00:01:42,160
+Once again it&#39;s asking for my password because we haven&#39;t run it for a while. It didn&#39;t take any time to start up. Sometimes it takes time to start up.
+
+10
+00:01:42,160 --> 00:01:49,880
+So here, on the left, we have listed all the packages on the system, and on the right here, it would show the status.
+
+11
+00:01:49,880 --> 00:02:00,760
+Now, this is a list according to category. So, for instance, under Editors we see all these different versions of Emacs, Libre Office...
+
+12
+00:02:00,760 --> 00:02:09,020
+I&#39;m sure if it goes further down we&#39;ll vi in its various forms, nano, all topics we will talk about later.
+
+13
+00:02:09,020 --> 00:02:23,120
+If I want to search for a particular package to install, I can do that by hitting the Search icon. And so, for instance, one program that might be useful it&#39;s called gnuplot.
+
+14
+00:02:23,120 --> 00:02:34,720
+So, I&#39;ll type it in there and it actually brought up a bunch of things because it&#39;s not just searching on the name.
+
+15
+00:02:34,720 --> 00:02:43,960
+But if I scroll down some... there it is gnuplot... I can see it&#39;s already installed because it&#39;s got the green in the box here.
+
+16
+00:02:43,960 --> 00:02:52,300
+If I wanted to install, let&#39;s say, that documentation package that goes along with it, I can click here and then say mark for installation.
+
+17
+00:02:52,300 --> 00:02:58,920
+If there are any other packages that needed to be installed when I did this, it would come up at that point.
+
+18
+00:02:58,920 --> 00:03:12,780
+I can say Apply and then it will install it. This is not a big package, so it&#39;s pretty quick. It&#39;s done.
+
+19
+00:03:12,800 --> 00:03:17,840
+And then, once that&#39;s done, I will remove it, since I don&#39;t really need it.
+
+20
+00:03:17,840 --> 00:03:25,580
+So I can go back down here and I seek gnuplot-doc. I&#39;ll mark for complete removal.
+
+21
+00:03:25,590 --> 00:03:35,340
+That means get rid of any configuration files I might have configured while I was using it, etc. and mark Apply again,
+
+22
+00:03:35,340 --> 00:03:37,660
+and that little X here means removal.
+
+23
+00:03:37,660 --> 00:03:41,600
+So I just say Apply.
+
+24
+00:03:44,160 --> 00:03:57,420
+So, Synaptic only searches for packages which are already in the databases that Ubuntu understands, while the Ubuntu Software Center will go to some more external resources.
+
+25
+00:03:57,420 --> 00:04:02,680
+So that&#39;s a quick demonstration of software package management from a graphical interface in Ubuntu.
+
+26
+00:04:02,680 --> 00:04:08,480
+Later, we will show more from a command-line interface.
+

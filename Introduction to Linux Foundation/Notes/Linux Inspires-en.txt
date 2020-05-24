@@ -1,0 +1,8 @@
+Nobody can control Linux. I don't have any more rights than you have.
+For co-inventing the UNIX operating system and the C Programming language,
+which together have led to enormous advances and have stimulated the growth of an entire industry and thereby enhancing American leadership in the information age.
+It's not enough just to be stable and it's not enough just to be fast and it's not enough just to be virus-free;
+you've got to be punchy and clear and beautiful.
+Linux is twenty years old. The web is less than 7000 days old.
+Together, they have changed human civilization, more rapidly than any pair of inventions in the history of the world.
+We made it possible to use a computer in freedom!

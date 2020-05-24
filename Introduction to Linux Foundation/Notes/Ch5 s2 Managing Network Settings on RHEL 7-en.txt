@@ -1,0 +1,19 @@
+Let's demonstrate how to control wired and wireless network connections on a Red Hat 7 system.
+If I click on the upper right hand corner, for instance, if I want to look at the wired connection, I can just scroll down to the Wired Connection,
+and then Wired Settings, and it asks me for my password; the root password, because it wants to have a super user only control network connections.
+and you'll see I have 1,000 megabit connection.
+If I click on the gear icon, I can control the Settings. On the Details, first screen, it says it connects automatically when the system starts and all users can use it.
+On Identity, I give what the name of the interface looks like, not the name of the system. In older systems, that would have been eth0, eth1, etc.,
+but as we will discuss later, newer systems have these more complex names.
+Under IPv4, we control the basic internet protocols system settings. Most of the time, you'll leave it alone at Automatic (DHCP), dynamic host configuration protocol,
+where the system figures out its address from the server etc.
+If you understand the importance of manual settings, you can specify an address and netmask, a gateway,
+you can select a particular DNS server and you can specify routes to certain addresses.
+If you understand those concepts, this is where you would go to control all that.
+We're not changing anything, so I'll just hit Cancel.
+Now, if I want to control Wi-Fi settings, I could go back to that upper right corner, or I can just click on the Wi-Fi setting here, and once again, it's asking me for the super user password.
+These are the different wireless networks that have to be... that are available at the moment. They all have locks next to them, means they require a password.
+This is the one that I'm actually on, coopj, the first one.
+If I click on the settings there, once again it's going to ask me for my super user password,
+and I see essentially the exact same settings I had on the wired connection: the automatic start up, as other people use it, the identity and whether I want to use DHCP or set things manually or not.
+So that's all there really is in the graphical interface to control basic network connections; it's rather simple and it looks the same on all recent Linux distributions.

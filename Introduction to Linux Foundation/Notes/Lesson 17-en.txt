@@ -1,0 +1,3 @@
+There are thousands of applications in Linux and new ones appear almost every day.
+In this lesson, we will cover the common internet applications, common multimedia applications, common graphic editors, and other common tools and utilities.
+Let’s get started!

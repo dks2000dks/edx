@@ -1,0 +1,23 @@
+Recent Enterprise Linux distributions all are rather similar in how they start up and shut down.
+This is because they're using rather similar versions of the GNOME desktop, and also, they're using systemd for initialization services.
+So, in order to demonstrate that, on a Red Hat 7 host system, we will run three virtualized Enterprise Linux distributions using VMware Player.
+So, let me just get that set up. I'll start up the 3 instances.
+And in the first one I'll set it up to run Ubuntu 18.04, and the second one I'll set it up to run CentOS 7. The third one I'll set up to run openSUSE.
+Now, there'll be some warning messages as we go about not having proper graphics drivers for the virtualized instances,
+and as I start up the second and third machine there'll be some warnings about running more than one virtual machine at once.
+But we can safely ignore these warnings.
+So, first, I'll start up the Ubuntu 18.04.
+Second, I will initialize the CentOS 7,
+and third, I will start up the openSUSE virtual machine.
+And there are those warnings about running more than one...
+I'll have somewhat different initial screens, but then, once they enter the startup phase, they're all pretty similar.
+Generally, finally Ubuntu probably starts a little bit faster, then CentOS - the second fastest, and the openSUSE it tends to take a little bit longer.
+So here on the Ubuntu - let me type in the password now. And I'll wait a little bit on the CentOS one because I want to show you that CentOS and openSUSE look absolutely the same.
+So, while SUSE is still initializing, I'll type in the password for CentOS, and you'll notice the openSUSE screen looks absolutely the same for what's called the greeter, the only difference being the logo.
+So, I sign both those in,
+and for both the CentOS and openSUSE we have put in a customized background.
+We just picked a picture. For the Ubuntu, we haven't done anything, so that's the standard background screen that comes by default during the installation.
+To shut it down, I go to the upper right corner, I click on the power button, I click on the power icon, and then I could choose to restart, but I'll just say "Power off".
+For the CentOS 7 it's the same procedure. You'll see that... I'll just shut it down. And then I'll do the same thing for the openSUSE machine.
+Once again, it looks absolutely the same. It'll shut off quite cleanly.
+So you can see that, for recent distributions, things are pretty similar and you don't have to worry about how different things would be depending on which distribution you're using.

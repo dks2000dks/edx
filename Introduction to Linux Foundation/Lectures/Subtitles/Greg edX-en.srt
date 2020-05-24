@@ -1,0 +1,136 @@
+0
+00:00:03,953 --> 00:00:07,344
+Hi, my name is Greg Kroah-Hartman. I work with the Linux foundation as a fellow.
+
+1
+00:00:07,345 --> 00:00:11,898
+I am a Linux kernel developer. I release stable Linux kernels as well as doing (do) other driver development.
+
+2
+00:00:11,899 --> 00:00:16,902
+Linux releases development kernel about once every three months, I do the stable kernels about once every week.
+
+3
+00:00:16,903 --> 00:00:21,143
+I got involved with Linux many years ago. I used to use it where I worked.
+
+4
+00:00:21,144 --> 00:00:25,584
+I was a programmer. I invented embedded devices, firmware for embedded devices.
+
+5
+00:00:25,585 --> 00:00:33,053
+I had to interact my devices with all sorts of operating systems. Linux was just coming around. It was just getting USB support.
+
+6
+00:00:33,054 --> 00:00:35,943
+I was just creating a USB device. I had to get it to work.
+
+7
+00:00:35,944 --> 00:00:40,122
+I had contributed a patch to make the change and it was accepted and I was like hey, that's great!
+
+8
+00:00:40,123 --> 00:00:43,700
+Over time I submitted more and more patches and I wrote a driver for a device which
+
+9
+00:00:43,701 --> 00:00:46,702
+Linux didn't support because I was using Linux on my own desktop.
+
+10
+00:00:46,703 --> 00:00:51,569
+Suddenly, over time I realized that more people were using my device for free than
+
+11
+00:00:51,570 --> 00:00:55,422
+anything that I ever got paid for because the companies that I worked for never did very well.
+
+12
+00:00:55,423 --> 00:00:59,526
+And dot com boom started and there was more and more need for Linux developers.
+
+13
+00:00:59,527 --> 00:01:04,280
+I got a job being a Linux kernel developer full-time and I haven't looked back since.
+
+14
+00:01:04,281 --> 00:01:07,433
+It's been a great great opportunity and I really enjoy doing this.
+
+15
+00:01:07,434 --> 00:01:12,562
+Linux is an operating system and its core is just a kernel. It talks to the hardware makes the hardware work.
+
+16
+00:01:12,563 --> 00:01:16,015
+It makes it able for you to run programs and do what you want to do.
+
+17
+00:01:16,016 --> 00:01:23,021
+It's very unique in the fact that there are lots of other operating systems out there but our development community is very different.
+
+18
+00:01:23,022 --> 00:01:29,101
+We have over 2000 developers every year contributing to it from over 400 may be 500 companies.
+
+19
+00:01:29,102 --> 00:01:33,705
+It is the single largest software project in the history of mankind.
+
+20
+00:01:33,706 --> 00:01:40,961
+We contribute at the rate of about (what are we) about ten patches a day, twenty four hours a day, seven days a week, go into this code.
+
+21
+00:01:40,962 --> 00:01:45,215
+It's constantly updated, constantly revised, constantly changing because the world changes.
+
+22
+00:01:45,216 --> 00:01:52,196
+We have to react to a change in world. If an operating system stops change and of course if the world doesn't stop changing it will die.
+
+23
+00:01:52,197 --> 00:01:57,275
+Linux constantly is improved, constantly is updated in order to handle the changing world.
+
+24
+00:01:57,276 --> 00:02:02,329
+The more you know about Linux the better off you can be. Linux is used everywhere and we need help using it.
+
+25
+00:02:02,330 --> 00:02:09,460
+There is almost no part of the world that does not use Linux. If you have skills in Linux we have tons of jobs out there.
+
+26
+00:02:09,461 --> 00:02:13,439
+We need people who are programmers, we need people who are sys admins, we need people to document the stuff,
+
+27
+00:02:13,440 --> 00:02:19,244
+we need people to test the stuff and it's a fun thing to play with. You can play with it and create things out of it.
+
+28
+00:02:19,245 --> 00:02:21,045
+So you also can have fun while you are doing it.
+
+29
+00:02:21,046 --> 00:02:25,399
+And it will help feel that you are part of a larger community that's doing something great.
+
+30
+00:02:25,340 --> 00:02:30,704
+This course will teach the fundamentals of what Linux is; how to use the command line; how to use the graphical interface.
+
+31
+00:02:30,705 --> 00:02:35,783
+It is self-guided; you can sign up for it at anytime and take it at your own pace. Thank you for your interest in Linux.
+
+32
+00:02:35,784 --> 00:02:41,488
+I hope you enjoy the course. Linux is a wonderful experience. It provides great opportunities for jobs,
+
+33
+00:02:41,489 --> 00:02:45,784
+for future, for creating new and wonderful devices. I hope you enjoy this.
+

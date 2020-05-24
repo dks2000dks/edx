@@ -1,0 +1,16 @@
+0
+00:00:04,526 --> 00:00:07,958
+In Linux, all the application programs we are running are processes.
+
+1
+00:00:08,067 --> 00:00:11,012
+In this lesson, we are going to explore the concept of processes.
+
+2
+00:00:11,050 --> 00:00:18,397
+We are going to find out which processes are running; how to automatically start processes and how to list the resources that a process consumes.
+
+3
+00:00:18,653 --> 00:00:19,760
+Now, let’s get started!
+

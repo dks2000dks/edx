@@ -1,0 +1,13 @@
+It was August 1991 and a 20 year old computer science student called Linus Torvalds sat down at his computer in Helsinki to post what is now one of the most famous entries in computer history, “Hello everyone out there….I’m doing a free operating system (just a hobby, won’t be anything big and professional like gnu)…it probably won’t support anything other than AT-hard disks, as that’s all I have… “
+Word of Linux open source projects quickly spread around the world and developers from all over contributed their code. Linus named his OS kernel Linux and shows a penguin as its mascot after a little incident at the zoo.
+He soon made a very important decision which shaped Linux’s future just as much as the technology. He chose the GPL license created by a visionary named Richard Stallman.
+The Linux kernel along with the GPL license and other gnu components revolutionized the computer industry with very simple yet very important freedoms: the freedom to use the software for any purpose.
+The freedom to change the software to suit your needs. The freedom to share the software with your friends and neighbors, and the freedom to share the changes you make.
+These radical ideas fuelled its spread around the world, and somewhat paradoxically, its rise from a hobby and experiment to the foundation of a large and thriving commercial ecosystem.
+Companies built business around Linux. In 1999, Red Hat’s stock tripled as it became the first Linux company to go public. That same year IBM spent a billion dollars to improve and advertise Linux.
+Soon Linux was knocking out industry heavyweights, fueling the rise of the internet with its free software. In short, Linux revolutionized computing.
+But whenever something is this disruptive, there is bound to be competitive crossfire.  But Linux not only survived, it thrived. Today the kernel development community numbers in the thousands with hundreds of companies collaborating in Linux development.
+Every three months another version of Linux is released. So where is Linux today?
+Running in 75% of stock exchanges worldwide, empowering the servers that enable Amazon, Facebook, Twitter, ebay and Google.
+You use Linux literally every time you surf the Internet. It’s in your phone, in your TV, running 95% of supercomputers and in many of the devices that you use every day.
+Linux is everywhere and the Helsinki based programmer who started it all? He orchestrates this world wide army of developers from his home office in Portland, Oregon, as a fellow at the Linux Foundation.

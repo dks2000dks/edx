@@ -1,0 +1,15 @@
+So, let's do some basic package management on an Ubuntu system using Debian packaging.
+We're going to use the high-level utilities which understand dependencies: apt-cache and apt-get.
+So, first, let's look for all packages that contain the string wget2. So we do that with apt-cache search wget2, and it comes up with wget2 and wget2-dev.
+This is an enhancement to the standard wget utility, which is used for recursive downloading of the content of a website or some other kinds of resources.
+So, let's just try an install. So, do sudo apt-get install wget2-dev.
+And it's telling me it also needs to install libwget0 and wget2.
+It shouldn't be that surprising that you need to install the base packages on which the development packages build on.
+And it will download 264 kB of archives, but once everything is installed, it will expand out to 805 kB.
+So, let's just say yes. I'll type y. And it quickly goes ahead and does all that.
+Now, suppose we want to remove wget2-dev. Or, more interesting, let's try to remove wget itself.
+So, what is it doing? Oh, I shouldn't have removed wget. I meant wget2. wget I do not want to remove. So, I'll type it again with the 2.
+And you see, it wants to remove wget2-dev as well, because without wget2, wget2-dev doesn't have much meaning.
+Ok and we no longer need the libwget0. It's sort of orphaned out, but we'll leave it there for now.
+So, I'll just say yes and I have removed things from my system.
+So, that's the most basic operations you would need to do on an Ubuntu system using Debian packaging.

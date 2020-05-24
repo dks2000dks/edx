@@ -1,0 +1,92 @@
+0
+00:00:00,030 --> 00:00:08,880
+And now we&#39;ll get some practice using the low-level rpm command in order to look at a package, try to remove it, etc.
+
+1
+00:00:08,880 --> 00:00:14,880
+So, we&#39;re going to type &quot;rpm -qa&quot; for query, and look at all packages on the system,
+
+2
+00:00:14,880 --> 00:00:19,180
+and then we&#39;re going to grep to look for the package bzip2.
+
+3
+00:00:19,180 --> 00:00:34,980
+Okay. And you see, there is actually 2 rpm packages which have bzip2 in their names: the actual bzip2 program and then bzip2-libs, which is libraries that depend on bzip2.
+
+4
+00:00:34,980 --> 00:00:54,740
+So, let&#39;s take a look more at information about bzip2. If I do &quot;rpm -q&quot; for query, &quot;i&quot; for information, and then &quot;l&quot; for a list of files [rpm -qil], and that&#39;s a lot, so, I&#39;ll pipe it through &quot;less&quot;...
+
+5
+00:00:54,740 --> 00:01:00,860
+Oops I forgot to give the name of the package; so, bzip2...
+
+6
+00:01:00,860 --> 00:01:18,620
+you see, the name is bzip2, you see its version - 1.0.6, we see its source, rpm here, we see when it was released - in November 2015, at centos.org,
+
+7
+00:01:18,620 --> 00:01:29,900
+and then a description of what it does... it&#39;s a freely available, patent-free high quality data compressor, etc., and then, a list of the files that are part of bzip2.
+
+8
+00:01:29,900 --> 00:01:45,100
+If I want to get a little bit more detailed look at what&#39;s in there, I could do something a little fancier, like &quot;rpm -ql  bzip2&quot;,  we just list the files,
+
+9
+00:01:45,100 --> 00:01:52,520
+and then I&#39;ll make that a shell command and substitute for it, and do an &quot;ls -lF&quot; on that [ls -lF $(rpm -ql bzip2)].
+
+10
+00:01:52,520 --> 00:02:04,740
+So this will give me a detailed listing, and then, I&#39;ll pipe it into &quot;less&quot;, and these are the actual files that are in the package in a little bit more detail, like their length and what type of files...
+
+11
+00:02:04,740 --> 00:02:17,560
+You&#39;ll notice, for instance, bunzip2 and bzip2 are really the same file, it&#39;s just a symbolic link, and the system knows what to do or, I should say, the application knows what to do,
+
+12
+00:02:17,560 --> 00:02:23,200
+whether to zip or unzip, depending on how it&#39;s called.
+
+13
+00:02:24,130 --> 00:02:29,160
+Now, let&#39;s see what happens if I try to remove the package.
+
+14
+00:02:29,160 --> 00:02:47,870
+So, I should be root to do that. So, do an &quot;sudo&quot;, and then, I&#39;ll do &quot;rpm -e&quot; for erase, and then, just to be extra careful, I&#39;ll use the &quot;--test&quot;, which means it won&#39;t actually do anything with this option. It&#39;ll just see if it could do it... bzip2 [sudo rpm -e --test bzip2].
+
+15
+00:02:47,870 --> 00:02:55,620
+So, I try to remove it and it&#39;s telling me that I can&#39;t do that because it&#39;s needed by those following three packages,
+
+16
+00:02:55,620 --> 00:03:05,040
+as well as the file-roller program, which is an archiving program present on basically all Linux distributions.
+
+17
+00:03:05,040 --> 00:03:16,440
+And then, I can get a little more information in a different way with &quot;rpm -q --whatprovides bzip2&quot;,
+
+18
+00:03:16,440 --> 00:03:20,640
+and you&#39;ll see it&#39;s the bzip2 package,
+
+19
+00:03:21,800 --> 00:03:24,420
+and if I do &quot;--whatrequires&quot; [rpm -q --whatrequires bzip2],
+
+20
+00:03:28,640 --> 00:03:41,560
+I get the same information about the three packages that I would need to have bzip2 installed for them to behave properly and not crash or anything.
+
+21
+00:03:41,560 --> 00:03:51,960
+A little bit later we&#39;re going to discuss yum, and zipper, and also dnf, which are higher level programs that can handle dependencies in robust fashion.
+
+22
+00:03:51,960 --> 00:04:03,480
+rpm is really designed for individual packages which are listed on the command line, or groups of packages listed on the command line.
+

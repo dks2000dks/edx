@@ -1,0 +1,19 @@
+Let's get started on viewing files using the different available commands.
+To view the entire messages file on screen:
+1. At the command prompt, type cat messages.
+2. Press ENTER.
+To view the entire messages file with scroll-back:
+1. At the command prompt, type less messages.
+2. Press ENTER.
+To view last ten lines of the messages file:
+1. At the command prompt, type tail messages.
+2. Press ENTER.
+To view first ten lines of the messages file:
+1. At the command prompt, type head messages.
+2. Press ENTER.
+To view last three lines of the messages file:
+1. At the command prompt, type tail -3 messages.
+2. Press ENTER.
+To view first three lines of the messages file:
+1. At the command prompt, type head -3 messages.
+2. Press ENTER.

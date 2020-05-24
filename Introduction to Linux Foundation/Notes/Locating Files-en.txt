@@ -1,0 +1,8 @@
+Let's get started on how to find files using the command prompt.
+1. To find a file named passwd, at the command prompt, type the locate passwd command and press Enter.
+You can see the list of directories and files with passwd as the part of its name
+2. To copy the /etc/passwd file to test1.txt under your  home directory, at the command prompt, type cp /etc/passwd test1.txt and press Enter.
+3. Type Y and press ENTER
+4. To update locate database, at the command prompt, type sudo updatedb and press Enter.
+5. To locate the file test1.txt using locate, at the command prompt, type locate test 1.txt and press Enter.
+You can see the details of the test1.txt

@@ -1,0 +1,24 @@
+0
+00:00:04,527 --> 00:00:09,098
+We could spend weeks if not months teaching you how Linux works.
+
+1
+00:00:09,186 --> 00:00:11,955
+That would be akin to giving you a fish to eat.
+
+2
+00:00:12,109 --> 00:00:17,362
+Instead we want to teach to how to fish, so that you can learn to feed yourself.
+
+3
+00:00:17,801 --> 00:00:26,482
+Linux has a wealth of documentation describing various commands and how different options affect the operations of those commands.
+
+4
+00:00:26,570 --> 00:00:35,229
+As you learn new commands and their options in this course, always be aware that there is so much more to learn from the documentation.
+
+5
+00:00:35,470 --> 00:00:37,163
+Let’s get started!
+

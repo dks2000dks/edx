@@ -1,0 +1,76 @@
+0
+00:00:03,220 --> 00:00:12,460
+Let&#39;s demonstrate how to control wired and wireless network connections on a Red Hat 7 system.
+
+1
+00:00:12,460 --> 00:00:21,020
+If I click on the upper right hand corner, for instance, if I want to look at the wired connection, I can just scroll down to the Wired Connection,
+
+2
+00:00:21,020 --> 00:00:34,200
+and then Wired Settings, and it asks me for my password; the root password, because it wants to have a super user only control network connections.
+
+3
+00:00:34,200 --> 00:00:37,380
+and you&#39;ll see I have 1,000 megabit connection.
+
+4
+00:00:37,380 --> 00:00:48,300
+If I click on the gear icon, I can control the Settings. On the Details, first screen, it says it connects automatically when the system starts and all users can use it.
+
+5
+00:00:48,300 --> 00:01:01,520
+On Identity, I give what the name of the interface looks like, not the name of the system. In older systems, that would have been eth0, eth1, etc.,
+
+6
+00:01:01,520 --> 00:01:06,920
+but as we will discuss later, newer systems have these more complex names.
+
+7
+00:01:06,920 --> 00:01:20,160
+Under IPv4, we control the basic internet protocols system settings. Most of the time, you&#39;ll leave it alone at Automatic (DHCP), dynamic host configuration protocol,
+
+8
+00:01:20,160 --> 00:01:25,380
+where the system figures out its address from the server etc.
+
+9
+00:01:25,380 --> 00:01:33,980
+If you understand the importance of manual settings, you can specify an address and netmask, a gateway,
+
+10
+00:01:33,980 --> 00:01:40,180
+you can select a particular DNS server and you can specify routes to certain addresses.
+
+11
+00:01:40,180 --> 00:01:44,760
+If you understand those concepts, this is where you would go to control all that.
+
+12
+00:01:44,760 --> 00:01:48,140
+We&#39;re not changing anything, so I&#39;ll just hit Cancel.
+
+13
+00:01:48,140 --> 00:02:01,960
+Now, if I want to control Wi-Fi settings, I could go back to that upper right corner, or I can just click on the Wi-Fi setting here, and once again, it&#39;s asking me for the super user password.
+
+14
+00:02:01,960 --> 00:02:10,640
+These are the different wireless networks that have to be... that are available at the moment. They all have locks next to them, means they require a password.
+
+15
+00:02:10,639 --> 00:02:13,800
+This is the one that I&#39;m actually on, coopj, the first one.
+
+16
+00:02:13,800 --> 00:02:24,420
+If I click on the settings there, once again it&#39;s going to ask me for my super user password,
+
+17
+00:02:24,420 --> 00:02:38,580
+and I see essentially the exact same settings I had on the wired connection: the automatic start up, as other people use it, the identity and whether I want to use DHCP or set things manually or not.
+
+18
+00:02:38,580 --> 00:02:52,030
+So that&#39;s all there really is in the graphical interface to control basic network connections; it&#39;s rather simple and it looks the same on all recent Linux distributions.
+

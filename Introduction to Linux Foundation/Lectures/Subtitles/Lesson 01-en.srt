@@ -1,0 +1,20 @@
+0
+00:00:04,246 --> 00:00:08,680
+Let’s start your introduction to the world of Linux by covering some of the basics.
+
+1
+00:00:08,983 --> 00:00:12,484
+First, we’ll talk about the Linux foundation and what we do.
+
+2
+00:00:12,767 --> 00:00:16,200
+Then, we’ll talk about the logistics of this online course.
+
+3
+00:00:16,671 --> 00:00:24,844
+And finally, if you haven’t done so already, we’ll walk you through the process of choosing a Linux distribution that’s right for you.
+
+4
+00:00:25,247 --> 00:00:26,312
+Let’s get started.
+

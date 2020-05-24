@@ -1,0 +1,12 @@
+0
+00:00:04,716 --> 00:00:09,072
+There are thousands of applications in Linux and new ones appear almost every day.
+
+1
+00:00:09,716 --> 00:00:18,924
+In this lesson, we will cover the common internet applications, common multimedia applications, common graphic editors, and other common tools and utilities.
+
+2
+00:00:19,073 --> 00:00:20,038
+Let’s get started!
+

@@ -1,0 +1,11 @@
+Let's gain some experience using the info command for documentation.
+So, suppose I type "info make", I will get information about the make utility used by all programmers,
+and this takes me to the top of the info page or the head node.
+If I want to look for a particular topic, I can hit /, and you'll see at the bottom it's prompting me for search. So, I'll say example, and it brought me down here to Rule  Example.
+If I just hit return, I get that page. Now, at the top, you'll notice it says the node is Rule Example, the next one is Rule Syntax. So, if I hit an N, I get the Rule Syntax. It says the next one is Prerequisite Types, so if I hit N again, I get Prerequisite Types.
+If I hit P, I will go back to the previous one. So, I hit P - Rule Syntax.
+If I want to look again for example, I can just hit the / again, and it's prompting me for the same string. So, I'll just hit return.
+And I'm finding a later example about Wildcard Examples. And if I hit return, I find out above that. If I want to go all the way up, I can hit it a U. it takes me to the top of section 4.4.
+I hit U again, I'm at chapter four. I hit U again, I'm at the very top of everything.
+If I want to get information on the various keystroke bindings, I can hit an H for help, and you'll see in the bottom window, where the focus is shifted to, it lists all the possible keystrokes and what they can do.
+So, that's basically how I would use info. I hit Q, I am out of it. And the rest you can learn by navigating within the info page of any topic that interests you.

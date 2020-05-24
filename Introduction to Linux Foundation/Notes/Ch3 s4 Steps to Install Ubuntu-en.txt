@@ -1,0 +1,39 @@
+Now, we're going to do an install of Ubuntu 18.04 as a virtual machine under the VMware hypervisor, using a Red Hat 7 host system running VMware Player.
+So, the first thing we need to do is to create a new virtual machine,
+and for that, I already have the Ubuntu install disk mounted in the virtual CD drive,
+and we'll give a name for the user as "LF Student" for the username of "student".
+Now, we have to give a password, which I have done.
+And then, for the name, let's just call it "Ubuntu", and then, on the host machine, I want to have a certain place I want to put it rather than my home directory, I want it on a disk that has a lot of space.
+And then, let's allocate 30 gigabytes of space, and I prefer to have it as one big file rather than multiple files or slices.
+I find that clutters my system less.
+And really, that's all you have to do this start setting up the install,
+but it's better to click on "Customize hardware" and increase the amount of memory from 1 gigabyte to 4 in my case.
+and I might as well take advantage of having multiple processors, so I'll let it use all 4 processors on this host machine.
+And then, I'll just click on "Finish", and it will start the install after a couple of harmless messages about how the virtual machine graphics driver doesn't permit accelerated graphics performance.
+Now, the beautiful thing about the Ubuntu install on this recent version is that I am done. There are no more choices to make. I don't have any more parameters to specify, etc.
+If I hadn't been installing in a virtual machine, it would have asked me information like user name and password at this stage, but it was able to pick that up because of the intelligent way that VMware can handle Ubuntu.
+So, I'm doing this in real time. You know, if you can read the messages, you see it just created the main filesystem on the system, and now it's going through the stage of copying all the files over to the hard disk.
+Or, I should say, the simulated hard disk.
+Now, this takes a little bit of time. So, I'll pause the recording for a few seconds, so you don't have to watch not much happening.
+It skipped about a minute or so, and now it says it's almost finished copying files. It's showing a bunch of different blurbs for various features in this bionic beaver, or Ubuntu 18.04 release.
+The status bar has reached all the way to the right so it should be almost done.
+And now it's doing the actual install of the system. So, it's copied all the files it needs over to the hard disk, and it's doing the actual configuration.
+So, once again, I believe I'll pause for a little while, so you don't have to sit here and watch not much happening.
+I paused for about a minute. Now it says it's configuring hardware. So, it's finding all the hardware devices in the system, making sure it has the right device drivers for it, etc.
+It's now configuring the bootloader, the GRUB, and now it's doing cleanup - it's getting rid of packages which were only needed during the install.
+Then, of course, that's rolling by far too fast to be readable.
+And so, it's doing a little bit more package installation.
+And I'll pause again for a little while. There, it reached the end of the status bar and now it's doing a reboot.
+And shortly, I should be getting a login prompt.
+If you noticed, it's installing open-vm-tools. That's a package of special drivers and configuration stuff that's used when you're running it as a guest under VMware hypervisor.
+And we've reached the login screen running under the greater. So, I'll just log in as student and ops, I typed in the wrong password, I suppose... yep.
+And now the system is running. There's a few introductory messages here, and I'll just click through them to get to a fully up system, and then,
+just to see what really happened here, if I right-click, I can open up a terminal.
+And then, I'm gonna run the command "df", for disk free, "- t" to show me what type of filesystems I have, and "h" to print out the results in megabytes and gigabytes [df -th].
+And I see that in the main filesystem I have 30 gigabytes of space, of which I'm using 5.3, and it's an ext4 filesystem.
+When we install CentOS, we need to actually specify the type of filesystem, the size of the partition, etc. but Ubuntu made choices that it thought were best.
+Likewise, we won't talk about this now, but if I look at swap files, you'll see that there is a swap file of about one and a half gigabytes created instead of a swap partition.
+Usually, distributions create swap partitions.
+So, that's all there is to install the latest version of Ubuntu. Absolutely nothing to do during install - it makes what it thinks is sensible decisions for everything.
+And after the system is up and running, you can then go into the package manager and put in exactly what you need and configure the system in other ways.
+If you need a more flexible installation to begin with, you can make such choices when you start, but we took the easy path here.

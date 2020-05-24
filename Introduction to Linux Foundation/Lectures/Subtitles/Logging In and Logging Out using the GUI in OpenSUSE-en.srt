@@ -1,0 +1,52 @@
+0
+00:00:00,464 --> 00:00:03,417
+To log on to the system, perform the following steps:
+
+1
+00:00:03,474 --> 00:00:07,984
+1. Click on the desired user. In this case it is test2.
+
+2
+00:00:08,038 --> 00:00:10,350
+The Password box is displayed.
+
+3
+00:00:10,556 --> 00:00:13,206
+2. Enter the password for user test2.
+
+4
+00:00:15,983 --> 00:00:16,978
+3. Click Sign In.
+
+5
+00:00:17,917 --> 00:00:19,688
+The Desktop is displayed.
+
+6
+00:00:19,793 --> 00:00:25,281
+Note that the session will load the default or the previous session's choice of desktop environment.
+
+7
+00:00:25,302 --> 00:00:33,505
+After entering your username and password, it could take a little while for the graphical environment to start up, depending on your personal settings.
+
+8
+00:00:33,808 --> 00:00:36,847
+To log off of the system, perform the following steps:
+
+9
+00:00:37,185 --> 00:00:42,173
+1. On the openSUSE screen, click the power icon in the top-right corner.
+
+10
+00:00:44,131 --> 00:00:45,349
+2. Click test2.
+
+11
+00:00:46,216 --> 00:00:47,304
+3. Click Log Out.
+
+12
+00:00:47,646 --> 00:00:50,329
+Click Log Out in the confirmation box.
+

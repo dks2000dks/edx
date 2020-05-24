@@ -1,0 +1,3 @@
+The graphical interface is a nice and comfortable way to use the Linux system but the real power of Linux is in the command line.
+The good news is that today you start to customize your Linux system with command line; the bad news is that you might never stop.
+Let’s get started!

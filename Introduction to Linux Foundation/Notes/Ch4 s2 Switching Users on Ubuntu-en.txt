@@ -1,0 +1,9 @@
+Let us demonstrate how to switch users on an Ubuntu machine with several accounts.
+So first, I will choose the Linux Foundation student as the account to log into, type my password, and sign in.
+And then, if I look in the upper right hand corner and click there, I will see LF Student and I can click on either "Log Out" or "Switch User".
+Notice if I log out, I really log out, but if I switch users, I will just lock the user account, and then, when I start up, I will preserve all of my sessions and open windows, etc. when I restart.
+On some distributions you may actually see a list of users at this screen, but not on Ubuntu.
+So I'll say "Switch User" and I'm back to the greeter screen, and let me pick the second one, Theodore Cleaver, and login as that other user.
+And there we go. And now, if I look up here again, I can do the same thing. So, let me click on the name, I'll say "Switch User",
+and if I pick student again, you'll notice here it says "Unlock", and not "Restart". That means that, if I were to login now, I will have preserved all the open windows and running applications from before.
+This will look the same essentially on all Linux distributions of recent vintage. So it's very easy to switch users and not lose any information from what you're already doing.

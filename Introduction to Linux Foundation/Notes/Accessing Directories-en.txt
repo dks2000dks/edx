@@ -1,0 +1,19 @@
+Let’s get started with accessing directories using the command prompt.
+To locate the ccache compiler using whereis:
+1. At the command prompt, type whereis ccache
+2. Press ENTER.
+To display the present working directory:
+1. Type pwd and press ENTER.
+To change to the /usr/bin directory:
+1. At the command prompt, type cd /usr/bin and press ENTER.
+To change to your home directory:
+1. At the command prompt, type cd ~ or cd.
+2. Press ENTER.
+To change to the parent directory of your current directory:
+1. At the command prompt, type cd ..
+2. Press ENTER.
+To change to the previous directory:
+1. At the command prompt, type cd -.
+2. Press ENTER.
+To check where you are with pwd:
+2. Type pwd and press ENTER.

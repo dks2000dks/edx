@@ -1,0 +1,92 @@
+0
+00:00:00,340 --> 00:00:07,380
+Recent Enterprise Linux distributions all are rather similar in how they start up and shut down.
+
+1
+00:00:07,380 --> 00:00:18,380
+This is because they&#39;re using rather similar versions of the GNOME desktop, and also, they&#39;re using systemd for initialization services.
+
+2
+00:00:18,380 --> 00:00:30,740
+So, in order to demonstrate that, on a Red Hat 7 host system, we will run three virtualized Enterprise Linux distributions using VMware Player.
+
+3
+00:00:30,740 --> 00:00:35,340
+So, let me just get that set up. I&#39;ll start up the 3 instances.
+
+4
+00:00:35,340 --> 00:00:46,800
+And in the first one I&#39;ll set it up to run Ubuntu 18.04, and the second one I&#39;ll set it up to run CentOS 7. The third one I&#39;ll set up to run openSUSE.
+
+5
+00:00:46,800 --> 00:00:55,760
+Now, there&#39;ll be some warning messages as we go about not having proper graphics drivers for the virtualized instances,
+
+6
+00:00:55,760 --> 00:01:01,900
+and as I start up the second and third machine there&#39;ll be some warnings about running more than one virtual machine at once.
+
+7
+00:01:01,900 --> 00:01:04,380
+But we can safely ignore these warnings.
+
+8
+00:01:04,379 --> 00:01:09,020
+So, first, I&#39;ll start up the Ubuntu 18.04.
+
+9
+00:01:09,020 --> 00:01:14,020
+Second, I will initialize the CentOS 7,
+
+10
+00:01:14,020 --> 00:01:20,360
+and third, I will start up the openSUSE virtual machine.
+
+11
+00:01:20,360 --> 00:01:24,619
+And there are those warnings about running more than one...
+
+12
+00:01:24,620 --> 00:01:34,360
+I&#39;ll have somewhat different initial screens, but then, once they enter the startup phase, they&#39;re all pretty similar.
+
+13
+00:01:34,360 --> 00:01:43,280
+Generally, finally Ubuntu probably starts a little bit faster, then CentOS - the second fastest, and the openSUSE it tends to take a little bit longer.
+
+14
+00:01:43,280 --> 00:01:59,119
+So here on the Ubuntu - let me type in the password now. And I&#39;ll wait a little bit on the CentOS one because I want to show you that CentOS and openSUSE look absolutely the same.
+
+15
+00:01:59,120 --> 00:02:17,698
+So, while SUSE is still initializing, I&#39;ll type in the password for CentOS, and you&#39;ll notice the openSUSE screen looks absolutely the same for what&#39;s called the greeter, the only difference being the logo.
+
+16
+00:02:17,698 --> 00:02:19,440
+So, I sign both those in,
+
+17
+00:02:19,440 --> 00:02:27,500
+and for both the CentOS and openSUSE we have put in a customized background.
+
+18
+00:02:27,500 --> 00:02:39,980
+We just picked a picture. For the Ubuntu, we haven&#39;t done anything, so that&#39;s the standard background screen that comes by default during the installation.
+
+19
+00:02:39,980 --> 00:02:52,180
+To shut it down, I go to the upper right corner, I click on the power button, I click on the power icon, and then I could choose to restart, but I&#39;ll just say &quot;Power off&quot;.
+
+20
+00:02:52,180 --> 00:03:08,300
+For the CentOS 7 it&#39;s the same procedure. You&#39;ll see that... I&#39;ll just shut it down. And then I&#39;ll do the same thing for the openSUSE machine.
+
+21
+00:03:08,300 --> 00:03:13,620
+Once again, it looks absolutely the same. It&#39;ll shut off quite cleanly.
+
+22
+00:03:13,620 --> 00:03:26,489
+So you can see that, for recent distributions, things are pretty similar and you don&#39;t have to worry about how different things would be depending on which distribution you&#39;re using.
+

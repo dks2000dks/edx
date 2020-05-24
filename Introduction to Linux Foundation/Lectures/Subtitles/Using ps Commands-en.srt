@@ -1,0 +1,52 @@
+0
+00:00:00,723 --> 00:00:03,291
+Let's get started with using the ps command.
+
+1
+00:00:03,361 --> 00:00:06,363
+To use the ps command with various qualifiers:
+
+2
+00:00:06,699 --> 00:00:08,088
+1. Open the command prompt.
+
+3
+00:00:08,288 --> 00:00:13,142
+2. To view all the processes in the current shell, type ps and press Enter.
+
+4
+00:00:13,298 --> 00:00:17,099
+All the current processes, along with their attributes, are displayed.
+
+5
+00:00:17,159 --> 00:00:23,719
+3. To view all the processes in the system in full format, type ps -ef and press Enter.
+
+6
+00:00:24,125 --> 00:00:28,102
+All the current processes, along with their attributes, are displayed.
+
+7
+00:00:28,472 --> 00:00:36,121
+4. To view the current processes along with the list of threads, type ps -eLf and press Enter.
+
+8
+00:00:36,580 --> 00:00:40,818
+All the current processes and threads, along with their attributes, are displayed.
+
+9
+00:00:40,984 --> 00:00:49,168
+5. To view all processes for all users using the BSD style, type ps aux and press Enter.
+
+10
+00:00:49,426 --> 00:00:54,000
+All the processes for all users, along with their attributes, are displayed.
+
+11
+00:00:54,119 --> 00:01:11,725
+6. To view the current processes with full information in a specific format, type ps axo stat,priority,pid,pcpu,comm and press Enter.
+
+12
+00:01:11,988 --> 00:01:16,276
+All the current processes, along with the specified attributes, are displayed.
+

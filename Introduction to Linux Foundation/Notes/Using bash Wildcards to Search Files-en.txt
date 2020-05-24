@@ -1,0 +1,21 @@
+Let's get started on how to use the different wildcards to search for files.
+To view all files in the current directory using the ls command:
+1. At the command prompt, type ls –a command and press ENTER.
+2. All the files under current directory are displayed
+To search for files using the Bash wildcard:
+1. At the command prompt, type the ls ba?.? command.
+2. Press ENTER.
+All the filenames starting with "ba", plus a single character,
+plus a single character extension are shown.
+To search for files using the * Bash wildcard:
+1. At the command prompt, type the ls *.out command.
+2. Press ENTER.
+All the filenames having the .out extension are displayed.
+To search for files using the set Bash wildcard notation:
+1. At the command prompt, type the ls ba[a-s].c command.
+2. Press ENTER.
+All the filenames starting with "ba" and have an alphabetic character between a and s are displayed.
+To search for files using the !set Bash wildcard notation:
+1. At the command prompt, type the ls ba[!a-s].c command.
+2. Press ENTER.
+All the filenames starting with "ba" and not having an alphabetic character between a and s are displayed.

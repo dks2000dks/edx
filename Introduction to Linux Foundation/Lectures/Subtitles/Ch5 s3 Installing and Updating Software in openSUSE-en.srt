@@ -1,0 +1,88 @@
+0
+00:00:00,040 --> 00:00:09,580
+We are now going to demonstrate software package management from a graphical interface using the openSUSE Linux distribution.
+
+1
+00:00:09,580 --> 00:00:17,620
+The tool we want to use for doing this is YaST, y-s-t, and there&#39;s two different ways I can reach it.
+
+2
+00:00:17,620 --> 00:00:27,160
+If I have the GNOME shell extension installed which shows the Applications menu, which doesn&#39;t come by default, I can go down to System Tools,
+
+3
+00:00:27,160 --> 00:00:35,620
+and then go down to YaST, or I can always go up to the upper right hand corner, click on the Tool icon,
+
+4
+00:00:35,620 --> 00:00:46,320
+and then, at the bottom here, on the system, click on YaST. It will want the root password because I&#39;m going to manipulate what&#39;s installed on the system.
+
+5
+00:00:46,320 --> 00:00:51,280
+And so, if I go Software, I can go to Software Management.
+
+6
+00:00:53,120 --> 00:01:01,660
+Now, the first thing that YaST has to do is study the system and get a database of every possible package.
+
+7
+00:01:01,660 --> 00:01:07,040
+So, you can look at the packages on the system in different ways.
+
+8
+00:01:07,040 --> 00:01:15,300
+You can look by what&#39;s called RPM Groups. So, here&#39;s all the Games, grouped under Amusements.
+
+9
+00:01:15,300 --> 00:01:24,520
+I have Applications, Development, and all different kinds of Development subcategories, Tools, Documentation, etc.
+
+10
+00:01:24,520 --> 00:01:30,220
+Or RPM Groups... No, this is RPM Groups. Okay...
+
+11
+00:01:30,300 --> 00:01:35,080
+Or, I can look at Package Groups, which maybe is a little more intuitive.
+
+12
+00:01:35,080 --> 00:01:42,460
+So, I could click on, let&#39;s say, Multimedia and see all the different programs that are involved in dealing with multimedia.
+
+13
+00:01:42,460 --> 00:01:52,580
+Suppose I want to install something or inquire as to where something is installed. I can click on Search and type something in here.
+
+14
+00:01:52,580 --> 00:02:03,600
+I&#39;ll type gnuplot and I bring up quickly all the different gnuplot programs there are.
+
+15
+00:02:03,600 --> 00:02:08,940
+The main one, you see, has a check mark in the box. That means it&#39;s already installed.
+
+16
+00:02:11,940 --> 00:02:18,480
+I will decide to install gnuplot-doc, which is a small documentation package.
+
+17
+00:02:18,480 --> 00:02:28,360
+And then, in order to do the install, I will click on Accept and I will go ahead and do it. It&#39;s a pretty small package. It doesn&#39;t take long.
+
+18
+00:02:28,360 --> 00:02:33,560
+If you needed some other packages to function, it would have installed them at the same time.
+
+19
+00:02:33,560 --> 00:02:40,980
+So now, I&#39;ll say Continue, and if I can, I want to remove it because I don&#39;t really need it.
+
+20
+00:02:40,980 --> 00:02:57,240
+I&#39;ll type it in the Search again and then I click on here until I get an X for removal. And then I say Accept and it&#39;s removing it.
+
+21
+00:02:57,240 --> 00:03:10,490
+So that&#39;s all I have to do to do some basic package installation and removal under GNOME software with openSUSE. Pretty simple.
+

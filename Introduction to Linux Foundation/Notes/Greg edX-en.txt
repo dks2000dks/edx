@@ -1,0 +1,34 @@
+Hi, my name is Greg Kroah-Hartman. I work with the Linux foundation as a fellow.
+I am a Linux kernel developer. I release stable Linux kernels as well as doing (do) other driver development.
+Linux releases development kernel about once every three months, I do the stable kernels about once every week.
+I got involved with Linux many years ago. I used to use it where I worked.
+I was a programmer. I invented embedded devices, firmware for embedded devices.
+I had to interact my devices with all sorts of operating systems. Linux was just coming around. It was just getting USB support.
+I was just creating a USB device. I had to get it to work.
+I had contributed a patch to make the change and it was accepted and I was like hey, that's great!
+Over time I submitted more and more patches and I wrote a driver for a device which
+Linux didn't support because I was using Linux on my own desktop.
+Suddenly, over time I realized that more people were using my device for free than
+anything that I ever got paid for because the companies that I worked for never did very well.
+And dot com boom started and there was more and more need for Linux developers.
+I got a job being a Linux kernel developer full-time and I haven't looked back since.
+It's been a great great opportunity and I really enjoy doing this.
+Linux is an operating system and its core is just a kernel. It talks to the hardware makes the hardware work.
+It makes it able for you to run programs and do what you want to do.
+It's very unique in the fact that there are lots of other operating systems out there but our development community is very different.
+We have over 2000 developers every year contributing to it from over 400 may be 500 companies.
+It is the single largest software project in the history of mankind.
+We contribute at the rate of about (what are we) about ten patches a day, twenty four hours a day, seven days a week, go into this code.
+It's constantly updated, constantly revised, constantly changing because the world changes.
+We have to react to a change in world. If an operating system stops change and of course if the world doesn't stop changing it will die.
+Linux constantly is improved, constantly is updated in order to handle the changing world.
+The more you know about Linux the better off you can be. Linux is used everywhere and we need help using it.
+There is almost no part of the world that does not use Linux. If you have skills in Linux we have tons of jobs out there.
+We need people who are programmers, we need people who are sys admins, we need people to document the stuff,
+we need people to test the stuff and it's a fun thing to play with. You can play with it and create things out of it.
+So you also can have fun while you are doing it.
+And it will help feel that you are part of a larger community that's doing something great.
+This course will teach the fundamentals of what Linux is; how to use the command line; how to use the graphical interface.
+It is self-guided; you can sign up for it at anytime and take it at your own pace. Thank you for your interest in Linux.
+I hope you enjoy the course. Linux is a wonderful experience. It provides great opportunities for jobs,
+for future, for creating new and wonderful devices. I hope you enjoy this.

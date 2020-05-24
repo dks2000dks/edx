@@ -1,0 +1,72 @@
+0
+00:00:00,889 --> 00:00:05,649
+Let's get started with how to navigate through the directory history using the command prompt.
+
+1
+00:00:06,086 --> 00:00:17,805
+1. Let us say, we have two directories named dir1 and dir2 created under tmp directory and the current working directory is the test3's home directory.
+
+2
+00:00:18,109 --> 00:00:30,774
+2. To change from test3's home directory to dir1 under tmp directory, at the command prompt type cd /tmp/dir1 and press Enter.
+
+3
+00:00:31,314 --> 00:00:37,389
+3. To push the current directory to stack type pushd. and press Enter.
+
+4
+00:00:37,610 --> 00:00:40,936
+Now you working directory is dir1.
+
+5
+00:00:41,085 --> 00:00:51,741
+4. Now To change to dir2 under tmp directory, at the command prompt type cd /tmp/dir2 and press Enter.
+
+6
+00:00:52,291 --> 00:00:55,585
+Now you working directory is dir2.
+
+7
+00:00:56,171 --> 00:01:01,183
+5. To push the current directory to stack, type pushd. and press Enter.
+
+8
+00:01:01,497 --> 00:01:05,773
+Now, the stack contains the details of the last two directories that you have pushed.
+
+9
+00:01:05,932 --> 00:01:12,023
+6. To view the directories in the stack, at the command prompt type dirs and press Enter.
+
+10
+00:01:12,748 --> 00:01:16,100
+You can see the names of the two directories you have pushed to the stack
+
+11
+00:01:16,835 --> 00:01:24,473
+7. To pop the top-most directory from the stack, at the command prompt type popd and press Enter.
+
+12
+00:01:24,658 --> 00:01:30,970
+8. To check the current working directory, at the command prompt type pwd and press Enter.
+
+13
+00:01:31,391 --> 00:01:37,483
+9. To pop the top-most directory from the stack, at the command prompt type popd and press Enter.
+
+14
+00:01:37,940 --> 00:01:43,270
+10. To check the current working directory, at the command prompt type pwd and press Enter.
+
+15
+00:01:43,753 --> 00:01:47,603
+Now you're working directory is changed to dir1
+
+16
+00:01:47,768 --> 00:01:53,772
+11. To pop the top-most directory from the stack, at the command prompt type popd and press Enter.
+
+17
+00:01:53,926 --> 00:01:57,462
+Since, no entries are available in the stack you get a notification
+

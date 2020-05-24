@@ -1,0 +1,32 @@
+0
+00:00:00,208 --> 00:00:08,384
+Nobody can control Linux. I don't have any more rights than you have.
+
+1
+00:00:08,385 --> 00:00:13,252
+For co-inventing the UNIX operating system and the C Programming language,
+
+2
+00:00:13,253 --> 00:00:21,901
+which together have led to enormous advances and have stimulated the growth of an entire industry and thereby enhancing American leadership in the information age.
+
+3
+00:00:21,902 --> 00:00:29,339
+It's not enough just to be stable and it's not enough just to be fast and it's not enough just to be virus-free;
+
+4
+00:00:29,340 --> 00:00:32,330
+you've got to be punchy and clear and beautiful.
+
+5
+00:00:32,331 --> 00:00:38,212
+Linux is twenty years old. The web is less than 7000 days old.
+
+6
+00:00:38,213 --> 00:00:45,117
+Together, they have changed human civilization, more rapidly than any pair of inventions in the history of the world.
+
+7
+00:01:14,118 --> 00:01:22,868
+We made it possible to use a computer in freedom!
+

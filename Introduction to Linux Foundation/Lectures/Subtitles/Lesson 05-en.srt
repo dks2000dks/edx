@@ -1,0 +1,24 @@
+0
+00:00:04,191 --> 00:00:09,847
+After becoming familiar with your graphical interface, you are going to want to start configuring your system,
+
+1
+00:00:09,848 --> 00:00:15,188
+making it take full advantage of the hardware and modifying it so that it works well for you.
+
+2
+00:00:15,503 --> 00:00:18,340
+In this lesson, we’re going to cover a number of topics:
+
+3
+00:00:18,345 --> 00:00:25,239
+changing the screen resolution, adding multiple monitors, configuring the network, changing the date and time,
+
+4
+00:00:25,240 --> 00:00:29,912
+and adding and removing software from the system all from the graphical interface.
+
+5
+00:00:29,986 --> 00:00:30,969
+Let’s get started!
+

@@ -1,0 +1,156 @@
+0
+00:00:00,000 --> 00:00:15,160
+Now, we&#39;re going to do an install of Ubuntu 18.04 as a virtual machine under the VMware hypervisor, using a Red Hat 7 host system running VMware Player.
+
+1
+00:00:15,160 --> 00:00:20,660
+So, the first thing we need to do is to create a new virtual machine,
+
+2
+00:00:20,660 --> 00:00:32,640
+and for that, I already have the Ubuntu install disk mounted in the virtual CD drive,
+
+3
+00:00:32,640 --> 00:00:42,840
+and we&#39;ll give a name for the user as &quot;LF Student&quot; for the username of &quot;student&quot;.
+
+4
+00:00:42,840 --> 00:00:48,700
+Now, we have to give a password, which I have done.
+
+5
+00:00:48,700 --> 00:01:04,920
+And then, for the name, let&#39;s just call it &quot;Ubuntu&quot;, and then, on the host machine, I want to have a certain place I want to put it rather than my home directory, I want it on a disk that has a lot of space.
+
+6
+00:01:04,920 --> 00:01:17,040
+And then, let&#39;s allocate 30 gigabytes of space, and I prefer to have it as one big file rather than multiple files or slices.
+
+7
+00:01:17,040 --> 00:01:21,260
+I find that clutters my system less.
+
+8
+00:01:21,260 --> 00:01:26,660
+And really, that&#39;s all you have to do this start setting up the install,
+
+9
+00:01:26,660 --> 00:01:35,480
+but it&#39;s better to click on &quot;Customize hardware&quot; and increase the amount of memory from 1 gigabyte to 4 in my case.
+
+10
+00:01:35,480 --> 00:01:44,620
+and I might as well take advantage of having multiple processors, so I&#39;ll let it use all 4 processors on this host machine.
+
+11
+00:01:44,620 --> 00:02:01,760
+And then, I&#39;ll just click on &quot;Finish&quot;, and it will start the install after a couple of harmless messages about how the virtual machine graphics driver doesn&#39;t permit accelerated graphics performance.
+
+12
+00:02:01,760 --> 00:02:16,160
+Now, the beautiful thing about the Ubuntu install on this recent version is that I am done. There are no more choices to make. I don&#39;t have any more parameters to specify, etc.
+
+13
+00:02:16,160 --> 00:02:32,400
+If I hadn&#39;t been installing in a virtual machine, it would have asked me information like user name and password at this stage, but it was able to pick that up because of the intelligent way that VMware can handle Ubuntu.
+
+14
+00:02:32,400 --> 00:02:48,220
+So, I&#39;m doing this in real time. You know, if you can read the messages, you see it just created the main filesystem on the system, and now it&#39;s going through the stage of copying all the files over to the hard disk.
+
+15
+00:02:48,220 --> 00:02:51,330
+Or, I should say, the simulated hard disk.
+
+16
+00:02:51,330 --> 00:02:59,240
+Now, this takes a little bit of time. So, I&#39;ll pause the recording for a few seconds, so you don&#39;t have to watch not much happening.
+
+17
+00:02:59,240 --> 00:03:16,540
+It skipped about a minute or so, and now it says it&#39;s almost finished copying files. It&#39;s showing a bunch of different blurbs for various features in this bionic beaver, or Ubuntu 18.04 release.
+
+18
+00:03:16,540 --> 00:03:24,380
+The status bar has reached all the way to the right so it should be almost done.
+
+19
+00:03:24,380 --> 00:03:35,639
+And now it&#39;s doing the actual install of the system. So, it&#39;s copied all the files it needs over to the hard disk, and it&#39;s doing the actual configuration.
+
+20
+00:03:40,280 --> 00:03:47,760
+So, once again, I believe I&#39;ll pause for a little while, so you don&#39;t have to sit here and watch not much happening.
+
+21
+00:03:47,760 --> 00:04:02,420
+I paused for about a minute. Now it says it&#39;s configuring hardware. So, it&#39;s finding all the hardware devices in the system, making sure it has the right device drivers for it, etc.
+
+22
+00:04:02,420 --> 00:04:14,080
+It&#39;s now configuring the bootloader, the GRUB, and now it&#39;s doing cleanup - it&#39;s getting rid of packages which were only needed during the install.
+
+23
+00:04:17,740 --> 00:04:25,860
+Then, of course, that&#39;s rolling by far too fast to be readable.
+
+24
+00:04:29,780 --> 00:04:37,040
+And so, it&#39;s doing a little bit more package installation.
+
+25
+00:04:37,940 --> 00:04:48,560
+And I&#39;ll pause again for a little while. There, it reached the end of the status bar and now it&#39;s doing a reboot.
+
+26
+00:04:53,360 --> 00:04:57,680
+And shortly, I should be getting a login prompt.
+
+27
+00:05:02,700 --> 00:05:17,320
+If you noticed, it&#39;s installing open-vm-tools. That&#39;s a package of special drivers and configuration stuff that&#39;s used when you&#39;re running it as a guest under VMware hypervisor.
+
+28
+00:05:21,060 --> 00:05:37,770
+And we&#39;ve reached the login screen running under the greater. So, I&#39;ll just log in as student and ops, I typed in the wrong password, I suppose... yep.
+
+29
+00:05:40,540 --> 00:05:52,300
+And now the system is running. There&#39;s a few introductory messages here, and I&#39;ll just click through them to get to a fully up system, and then,
+
+30
+00:05:52,300 --> 00:05:58,039
+just to see what really happened here, if I right-click, I can open up a terminal.
+
+31
+00:05:58,040 --> 00:06:10,880
+And then, I&#39;m gonna run the command &quot;df&quot;, for disk free, &quot;- t&quot; to show me what type of filesystems I have, and &quot;h&quot; to print out the results in megabytes and gigabytes [df -th].
+
+32
+00:06:10,880 --> 00:06:21,880
+And I see that in the main filesystem I have 30 gigabytes of space, of which I&#39;m using 5.3, and it&#39;s an ext4 filesystem.
+
+33
+00:06:21,880 --> 00:06:33,060
+When we install CentOS, we need to actually specify the type of filesystem, the size of the partition, etc. but Ubuntu made choices that it thought were best.
+
+34
+00:06:33,060 --> 00:06:48,400
+Likewise, we won&#39;t talk about this now, but if I look at swap files, you&#39;ll see that there is a swap file of about one and a half gigabytes created instead of a swap partition.
+
+35
+00:06:48,400 --> 00:06:51,880
+Usually, distributions create swap partitions.
+
+36
+00:06:51,880 --> 00:07:03,520
+So, that&#39;s all there is to install the latest version of Ubuntu. Absolutely nothing to do during install - it makes what it thinks is sensible decisions for everything.
+
+37
+00:07:03,520 --> 00:07:12,580
+And after the system is up and running, you can then go into the package manager and put in exactly what you need and configure the system in other ways.
+
+38
+00:07:12,580 --> 00:07:24,440
+If you need a more flexible installation to begin with, you can make such choices when you start, but we took the easy path here.
+

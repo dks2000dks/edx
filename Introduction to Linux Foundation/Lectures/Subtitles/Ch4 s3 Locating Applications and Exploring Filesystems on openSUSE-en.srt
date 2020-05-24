@@ -1,0 +1,88 @@
+0
+00:00:00,040 --> 00:00:05,360
+Let&#39;s see how to locate the Firefox application in &quot;Locate Firefox&quot;.
+
+1
+00:00:05,360 --> 00:00:09,258
+Click &quot;Activities&quot; on the top left corner of your desktop.
+
+2
+00:00:09,260 --> 00:00:13,380
+On the left panel, click the &quot;Show applications&quot; icon.
+
+3
+00:00:13,380 --> 00:00:17,080
+Click the Firefox icon.
+
+4
+00:00:17,090 --> 00:00:23,349
+Close Firefox by clicking &quot;Close&quot; in the top right corner of the Firefox window.
+
+5
+00:00:23,349 --> 00:00:33,980
+Next, let&#39;s explore the Home directory using the File Manager: try to view files in list mode, create a new empty document, save it, and remove it.
+
+6
+00:00:33,980 --> 00:00:38,540
+Click &quot;Activities&quot; in the upper left corner of your desktop.
+
+7
+00:00:38,540 --> 00:00:42,260
+In the left panel, click the File Manager icon.
+
+8
+00:00:42,260 --> 00:00:45,260
+This will by default open the Home directory.
+
+9
+00:00:45,260 --> 00:00:51,860
+To view files in list mode, click the List icon in the upper right of the File Manager window.
+
+10
+00:00:51,920 --> 00:00:55,260
+Double-click the Document directory to open it.
+
+11
+00:00:55,260 --> 00:01:01,420
+Click Activities in the top left corner of your desktop to launch gedit.
+
+12
+00:01:01,430 --> 00:01:04,758
+Type gedit in the Search box.
+
+13
+00:01:04,757 --> 00:01:08,430
+Click the gedit icon to open it.
+
+14
+00:01:08,430 --> 00:01:15,280
+Type your name and click Close in the top right corner of the gedit window to create and close a file.
+
+15
+00:01:15,280 --> 00:01:19,010
+Click Save As to save the created file.
+
+16
+00:01:19,010 --> 00:01:23,260
+Select Documents from the left panel of the Save As window.
+
+17
+00:01:23,260 --> 00:01:27,120
+Type Test to save the file by that name.
+
+18
+00:01:27,120 --> 00:01:30,800
+Click Save to save the file and close gedit.
+
+19
+00:01:30,800 --> 00:01:33,840
+This brings you back to the Document directory.
+
+20
+00:01:33,840 --> 00:01:37,080
+Right-click the Test file in the Document window.
+
+21
+00:01:37,080 --> 00:01:41,960
+Select Move to Trash to remove the file.
+

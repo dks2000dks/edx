@@ -1,0 +1,6 @@
+We could spend weeks if not months teaching you how Linux works.
+That would be akin to giving you a fish to eat.
+Instead we want to teach to how to fish, so that you can learn to feed yourself.
+Linux has a wealth of documentation describing various commands and how different options affect the operations of those commands.
+As you learn new commands and their options in this course, always be aware that there is so much more to learn from the documentation.
+Let’s get started!

@@ -1,0 +1,52 @@
+0
+00:00:00,464 --> 00:00:04,659
+Let's get started on managing system and display settings in OpenSUSE.
+
+1
+00:00:04,759 --> 00:00:10,214
+To change the screen resolution to 1024 x 768 in OpenSUSE:
+
+2
+00:00:10,512 --> 00:00:15,238
+1. On the OpenSUSE desktop, at the top left corner of screen click Activities.
+
+3
+00:00:16,216 --> 00:00:21,274
+2. Type settings in the Search box. The Settings icon appears.
+
+4
+00:00:22,534 --> 00:00:24,291
+3. Click the Settings icon.
+
+5
+00:00:24,971 --> 00:00:27,077
+The All Settings window appears.
+
+6
+00:00:28,404 --> 00:00:30,161
+4. Click the Displays icon.
+
+7
+00:00:30,344 --> 00:00:32,284
+The Displays window appears.
+
+8
+00:00:32,698 --> 00:00:35,732
+5. Select a display ID to set the resolution.
+
+9
+00:00:36,097 --> 00:00:41,237
+6. From the Resolution drop-down list, select 1024 x 768.
+
+10
+00:00:41,320 --> 00:00:42,514
+7. Click Apply.
+
+11
+00:00:43,211 --> 00:00:45,565
+A confirmation message is displayed.
+
+12
+00:00:45,615 --> 00:00:47,174
+8. Click Keep Changes.
+

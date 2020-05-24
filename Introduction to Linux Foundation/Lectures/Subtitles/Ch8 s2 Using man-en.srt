@@ -1,0 +1,56 @@
+0
+00:00:00,260 --> 00:00:05,660
+Let&#39;s use the man utility to get some information about sockets on our system.
+
+1
+00:00:05,660 --> 00:00:18,760
+If I just type &quot;man socket&quot;, I get chapter 2 of the Linux Programmer&#39;s Manual, I get the page in there in chapter 2 that has to do with sockets.
+
+2
+00:00:18,760 --> 00:00:27,320
+This is a pretty general page that tells me a lot of information about sockets and different protocols that they can use.
+
+3
+00:00:27,320 --> 00:00:37,840
+If I want to get a list of all the pages that are called socket, I do &quot;man -f socket&quot;. You see there is actually five of them in different chapters.
+
+4
+00:00:37,840 --> 00:00:41,620
+That, by the way, it&#39;s exactly the same as saying &quot;whatis socket&quot;.
+
+5
+00:00:41,620 --> 00:00:58,900
+So, &quot;man -f&quot; and apropos are the same. If I want to see a particular page, say chapter 7, I can do &quot;man 7 socket&quot;, and I&#39;m getting the man page in chapter 7, which is rather detailed.
+
+6
+00:00:58,900 --> 00:01:05,480
+If I want to see them all at once, I can say &quot;man -a socket&quot; for all, I guess.
+
+7
+00:01:05,480 --> 00:01:15,360
+And I can space my way through this one. If I hit Q, it&#39;s telling me if I hit Return I&#39;ll see the next one, 3p, so let&#39;s do that now.
+
+8
+00:01:15,360 --> 00:01:26,700
+I&#39;ll hit Q again, you see, if I want to get out, rather than going through the rest of them, the next one would be 7, I can hit Ctrl-C. Ctrl-D would just skip the next one.
+
+9
+00:01:26,700 --> 00:01:36,640
+If I want to see all man pages that have the word socket in their basic description, I do that with &quot;man -k&quot;,
+
+10
+00:01:36,640 --> 00:01:43,480
+and that&#39;s a rather long list because sockets are pretty basic and involve all sorts of things on your system.
+
+11
+00:01:43,480 --> 00:01:51,660
+&quot;man -k&quot; is exactly the same with just typing &quot;apropos socket&quot;, and I get the exact same thing.
+
+12
+00:01:51,660 --> 00:01:57,480
+So, that&#39;s just some basic day-to-day functioning of using man to get information.
+
+13
+00:01:57,480 --> 00:02:06,040
+You should play around with different man pages and look at the real contents and that means see how they differ from page to page.
+

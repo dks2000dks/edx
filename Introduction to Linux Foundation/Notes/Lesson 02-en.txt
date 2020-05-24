@@ -1,0 +1,3 @@
+Ever wonder where Linux came from?
+In this lesson, we’ll discuss the history of Linux, the philosophy, the community, and the components of a Linux distribution.
+Let’s get started.

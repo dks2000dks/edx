@@ -1,0 +1,52 @@
+0
+00:00:01,820 --> 00:00:10,920
+Let&#39;s demonstrate some basic package management functions on an openSUSE system using the zipper utility.
+
+1
+00:00:10,980 --> 00:00:20,620
+So first, let&#39;s look for all packages with &quot;zypper search&quot; that have the string gnuplot in them.
+
+2
+00:00:20,620 --> 00:00:26,300
+And we see a number of packages. Let&#39;s concentrate on the documentation package [gnuplot-doc].
+
+3
+00:00:26,300 --> 00:00:32,440
+So, suppose I try to install that and for that, I have to be a super user for an installation.
+
+4
+00:00:32,439 --> 00:00:39,060
+So, I do &quot;sudo zypper install gnuplot-doc&quot;.
+
+5
+00:00:39,060 --> 00:00:53,180
+And you notice it&#39;s telling me and I will not only have to install gnuplot-doc, I would have to install gnuplot, which is the actual program that gnuplot-doc documents.
+
+6
+00:00:53,180 --> 00:00:55,040
+So, I&#39;ll say sure, yes.
+
+7
+00:00:58,400 --> 00:01:12,260
+And it&#39;s being done successfully. If I want to get some information about the package, I can do &quot;rpm -qi gnuplot-doc&quot;, and for this, once again, I do not have to be root.
+
+8
+00:01:12,260 --> 00:01:25,200
+And it&#39;s telling me the name, the version, the size, all sorts of things. And, under the purpose, it&#39;s telling me it includes the man and the info pages for this rather useful plotting program.
+
+9
+00:01:25,200 --> 00:01:39,829
+Now, suppose I want to remove this package. I can do &quot;zypper remove gnuplot&quot;. Let&#39;s say I try to remove gnuplot, not gnuplot-doc,
+
+10
+00:01:41,060 --> 00:01:50,740
+and it&#39;s telling me that, if I remove gnuplot, I also have to remove gnuplot-doc, because otherwise there would be unmet dependencies.
+
+11
+00:01:50,740 --> 00:01:55,060
+So, I say yes, for sure, and now both of them are gone.
+
+12
+00:01:55,060 --> 00:02:06,620
+So that&#39;s the basic steps you would take to look for a package, install it, get some information about it, and remove it using zypper.
+
